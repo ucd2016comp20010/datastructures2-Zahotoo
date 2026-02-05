@@ -4,7 +4,7 @@ import project20280.interfaces.List;
 
 import java.util.Iterator;
 
-public class SinglyLinkedList<E> implements List<E> {
+public class SinglyLinkedList<E extends Comparable<E>> implements List<E> {
 
     private static class Node<E> {
 
@@ -230,6 +230,52 @@ public class SinglyLinkedList<E> implements List<E> {
         sb.append("]");
         return sb.toString();
     }
+
+    // Q9: A function which merges two sorted linked lists
+    public SinglyLinkedList<E> sortedMerge(SinglyLinkedList<E> otherList) {
+        SinglyLinkedList<E> result = new SinglyLinkedList<>();
+
+        Node<E> p1 = this.head;
+        Node<E> p2 = otherList.head;
+
+        while (p1 != null && p2 != null) {
+            if (p1.getElement().compareTo(p2.getElement()) <= 0) {
+                result.addLast(p1.getElement());
+                p1 = p1.next;
+            } else {
+                result.addLast(p2.getElement());
+                p2 = p2.next;
+            }
+        }
+
+        while (p1 != null) {
+            result.addLast(p1.getElement());
+            p1 = p1.next;
+        }
+        while (p2 != null) {
+            result.addLast(p2.getElement());
+            p2 = p2.next;
+        }
+
+        return result;
+    }
+
+    // Q10: reverse the linked list in place
+    public void reverse() {
+        Node<E> prev = null;
+        Node<E> curr = head;
+        Node<E> next;
+
+        while (curr != null) {
+            next = curr.getNext();
+            curr.setNext(prev);
+            prev = curr;
+            curr = next;
+        }
+        head = prev;
+    }
+
+    // Q11: A method to clone the linked list (Deep copy)
 
     public static void main(String[] args) {
         SinglyLinkedList<Integer> ll = new SinglyLinkedList<Integer>();
