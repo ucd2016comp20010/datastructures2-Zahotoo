@@ -22,7 +22,8 @@ public class SinglyLinkedList<E> implements List<E> {
          * @param n reference to a node that should follow the new node
          */
         public Node(E e, Node<E> n) {
-            // TODO
+            this.element = e;
+            this.next = n;
         }
 
         // Accessor methods
@@ -33,7 +34,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @return the element stored at the node
          */
         public E getElement() {
-            return null;
+            return element;
         }
 
         /**
@@ -42,8 +43,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @return the following node
          */
         public Node<E> getNext() {
-            // TODO
-            return null;
+            return next;
         }
 
         // Modifier methods
@@ -54,7 +54,7 @@ public class SinglyLinkedList<E> implements List<E> {
          * @param n the node that should follow this one
          */
         public void setNext(Node<E> n) {
-            // TODO
+            this.next = n;
         }
     } //----------- end of nested Node class -----------
 
@@ -74,54 +74,127 @@ public class SinglyLinkedList<E> implements List<E> {
 
     //@Override
     public int size() {
-        // TODO
-        return 0;
+        return size;
     }
 
     //@Override
     public boolean isEmpty() {
-        // TODO
-        return false;
+        return size == 0;
     }
 
     @Override
     public E get(int position) {
-        // TODO
-        return null;
+        if  (position < 0 || position > size) {
+            throw new IndexOutOfBoundsException();
+        }
+
+        Node<E> curr = head;
+        for (int i = 0; i < position; i++) {
+            curr = curr.getNext();
+        }
+        return curr.getElement();
     }
 
     @Override
     public void add(int position, E e) {
-        // TODO
+        if (position < 0 || position > size) {
+            throw new IndexOutOfBoundsException();
+        }
+
+        if  (position == 0) {
+            addFirst(e);
+        }
+
+        Node<E> prev = head;
+        for (int i = 0; i < position - 1; i++) {
+            prev = prev.getNext();
+        }
+        Node<E> newest = new Node<>(e, prev.getNext());
+        prev.setNext(newest);
+        size++;
     }
 
 
     @Override
     public void addFirst(E e) {
-        // TODO
+        head = new Node<>(e, head);
+        size++;
     }
 
     @Override
     public void addLast(E e) {
-        // TODO
+        Node<E> newest = new Node<>(e, null);
+        Node<E> last = head;
+
+        if (last == null) {
+            head = newest;
+        } else {
+            while (last.getNext() != null) {
+                last = last.getNext();
+            }
+            last.setNext(newest);
+        }
+        size++;
     }
 
     @Override
     public E remove(int position) {
-        // TODO
-        return null;
+        if (position < 0 || position > size) {
+            throw new IndexOutOfBoundsException();
+        }
+
+        if (position == 0) {    // if it is the head node
+            return removeFirst();
+        }
+
+        Node<E> prev = head;
+        for (int i = 0; i < position - 1; i++) {
+            prev = prev.getNext();
+        }
+        Node<E> removed = prev.getNext();
+        prev.setNext(removed.getNext());
+        size--;
+
+        return  removed.getElement();
     }
 
     @Override
     public E removeFirst() {
-        // TODO
-        return null;
+        if (isEmpty()) {
+            return null;
+        }
+
+        E removed = head.getElement();
+
+        head = head.getNext();
+        size--;
+
+        return removed;
     }
 
     @Override
     public E removeLast() {
-        // TODO
-        return null;
+        if (isEmpty()) {
+            return null;
+        }
+
+        if (size == 1) {
+            E removed = head.getElement();
+            head = null;
+            size--;
+            return removed;
+        }
+
+        Node<E> prev = head;
+        while (prev.getNext().getNext() != null) {
+            prev = prev.getNext();
+        }
+
+        Node<E> removed = prev.getNext();
+
+        prev.setNext(null);
+        size--;
+        return removed.getElement();
     }
 
     //@Override
