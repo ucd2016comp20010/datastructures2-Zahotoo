@@ -276,6 +276,15 @@ public class SinglyLinkedList<E extends Comparable<E>> implements List<E> {
     }
 
     // Q11: A method to clone the linked list (Deep copy)
+    public SinglyLinkedList<E> cloneList() {
+        SinglyLinkedList<E> twin = new SinglyLinkedList<>();
+        Node<E> tmp = head;
+        while (tmp != null) {
+            twin.addLast(tmp.getElement());
+            tmp = tmp.next;
+        }
+        return twin;
+    }
 
     public static void main(String[] args) {
         SinglyLinkedList<Integer> ll = new SinglyLinkedList<Integer>();
