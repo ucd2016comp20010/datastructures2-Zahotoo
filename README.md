@@ -79,3 +79,80 @@ A:
         end while  
 ````
 
+
+### Wk 4: Trees  
+- ***Q2: Write a recursive function (pseudo-code) to count the number of external nodes in a binary tree.***
+````
+    function COUNT-EXTERNAL(p)
+        if p is external then
+            return 1
+        end if
+        
+        total <- 0
+        
+        for each child c of p:
+            total <- total + COUNT-EXTERNAL(c)
+        end for
+        
+        return total
+    end function
+````
+
+
+- ***Q3: Describe an algorithm which counts only the left external nodes in a binary tree.***
+````
+    function COUNT-LEFT-EXTERNAL(p)
+        total <- 0
+        
+        if p has a left child then
+            if p.left() is external then
+                total <- total + 1
+            else
+                total <- total + COUNT-LEFT-EXTERNAL(p.left())
+            end if
+        end if
+        
+        if p has a right child then
+            total <- total + COUNT-LEFT-EXTERNAL(p.right())
+        end if
+        
+        return total
+    end function
+````
+
+
+- ***Q4: Consider a binary tree, where each node holds a single character. The nodes, in no particular order are ['A', 'E', 'F', 'M', 'N', 'U', 'X'].***
+  1. Draw a representation of this binary tree such that a **preorder** traversal of the tree gives the result: "EXAMFUN".
+  ````
+  preorder: V - L - R
+  
+                E
+             /    \
+           X        F
+         /   \    /  \
+        A     M  U    N
+  ````  
+  2. Draw a representation of this binary tree such that an **inorder** traversal of the tree gives the result: "EXAMFUN".
+  ````
+  
+  ````
+  3. Draw a representation of this binary tree such that a **postorder** traversal of the tree gives the result: "EXAMFUN".
+  ````
+  
+  ````
+
+
+- ***Q5: Write the pseudocode for an algorithm which counts the total number of descendants of a node in a binary tree***
+````
+    function COUNT-DESCENDANTS(p)
+        total <- 0
+        
+        for each child c of p then:
+            total <- total + 1
+            total <- total + COUNT-DESCENDANTS(c)
+        end for
+        
+        return total
+    end function
+````
+
