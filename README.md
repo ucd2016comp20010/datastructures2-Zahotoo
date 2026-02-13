@@ -134,10 +134,23 @@ A:
   ````  
   2. Draw a representation of this binary tree such that an **inorder** traversal of the tree gives the result: "EXAMFUN".
   ````
+  inorder: L - V - R
   
+                M
+             /    \
+           X        U
+         /   \    /  \
+        E     A  F    N
   ````
   3. Draw a representation of this binary tree such that a **postorder** traversal of the tree gives the result: "EXAMFUN".
   ````
+  postorder: L - R - V
+  
+                N
+             /    \
+           X        F
+         /   \    /  \
+        E     A  M    U
   
   ````
 
