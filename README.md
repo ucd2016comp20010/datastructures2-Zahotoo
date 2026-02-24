@@ -169,3 +169,31 @@ A:
     end function
 ````
 
+
+### Wk5: Trees II
+- ***Q5: Write the pseudocode for an algorithm which finds the diameter of a binary tree***
+````
+    function DIAMETER(root)
+        maxDiameter <- 0
+
+        call DIAMETER-RECURSIVE(root)
+
+        return maxDiameter
+    end function
+
+
+    function DIAMETER-RECURSIVE(node)
+        if node == null then:
+            return 0
+        end if
+        
+        leftMost  <- DIAMETER-RECURSIVE(node.left)
+        rightMost <- DIAMETER-RECURSIVE(node.right)
+        
+        diameterThroughNode <- leftMost + rightMost + 1
+        
+        maxDiameter <- MAX(maxDiameter, diameterThroughNode)
+        
+        return MAX(leftMost, rightMost) + 1
+    end function
+````

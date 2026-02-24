@@ -2,6 +2,10 @@ package project20280.tree;
 
 import project20280.interfaces.Position;
 
+import java.io.File;
+import java.io.IOException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 // import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 
@@ -29,6 +33,8 @@ public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTre
     public LinkedBinaryTree() {
     } // constructs an empty binary tree
 
+    private int maxDiameter;
+
     // constructor
 
     public static LinkedBinaryTree<Integer> makeRandom(int n) {
@@ -55,10 +61,46 @@ public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTre
     // accessor methods (not already implemented in AbstractBinaryTree)
 
     public static void main(String [] args) {
-        LinkedBinaryTree<String> bt = new LinkedBinaryTree<>();
-        String[] arr = { "A", "B", "C", "D", "E", null, "F", null, null, "G", "H", null, null, null, null };
-        bt.createLevelOrder(arr);
-        System.out.println(bt.toBinaryTreeString());
+        // Wk 5 Q2 test
+//        LinkedBinaryTree<String> bt = new LinkedBinaryTree<>();
+//        String[] arr = { "A", "B", "C", "D", "E", null, "F", null, null, "G", "H", null, null, null, null };
+//        bt.createLevelOrder(arr);
+//        System.out.println(bt.toBinaryTreeString());
+//
+//        // Wk 5 Q3 Test
+//        Integer [] inorder= {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30};
+//        Integer [] preorder= {18, 2, 1, 14, 13, 12, 4, 3, 9, 6, 5, 8, 7, 10, 11, 15, 16, 17, 28, 23, 19, 22, 20, 21, 24, 27, 26, 25, 29, 30};
+//        LinkedBinaryTree <Integer > bt2 = new LinkedBinaryTree<>();
+//        bt2.construct(inorder , preorder);
+//        System.out.println(bt2.toBinaryTreeString());
+
+        // Wk6 Q6
+        try {
+            FileWriter writer = new FileWriter("Wk5_Q6_result.csv");
+            writer.write("n,averageHeight\n");
+
+            int trials = 100;
+
+            for (int n = 50; n <= 5000; n += 50) {
+
+                double totalHeight = 0;
+
+                for (int i = 0; i < trials; i++) {
+                    LinkedBinaryTree<Integer> bt3 = LinkedBinaryTree.makeRandom(n);
+
+                    totalHeight += bt3.height();
+                }
+
+                double averageHeight = totalHeight / trials;
+
+                writer.write(n + ", " + averageHeight + "\n");
+            }
+            writer.close();
+            System.out.println("CSV file created");
+        } catch(IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
@@ -411,6 +453,121 @@ public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTre
 
         return total;
     }
+
+
+    // Wk 5 Q3: Takes a list of both inorder and preorder nodes to contruct a unique tree
+    public void construct(E[] inorder, E[] preorder) {
+        root = null;
+        size = 0;
+        if (inorder == null || preorder == null) return;
+        if (inorder.length == 0) return;
+
+        root = constructRecursive(
+                inorder, preorder,
+                0, inorder.length - 1,
+                0, preorder.length - 1,
+                null
+        );
+    }
+
+    private Node<E> constructRecursive(
+            E[] inorder, E[] preorder,
+            int inStart, int inEnd,
+            int preStart, int preEnd,
+            Node<E> parent
+    ) {
+        if (inStart > inEnd || preStart > preEnd) return null;
+
+        E rootVal = preorder[preStart];
+
+        Node<E> rootNode = createNode(rootVal, parent, null, null);
+        size++;
+
+
+        int rootIndex = -1;
+        for (int i = inStart; i <= inEnd; i++) {
+            if (inorder[i].equals(rootVal)) {
+                rootIndex = i;
+                break;
+            }
+        }
+
+        int leftSize = rootIndex - inStart;
+
+        rootNode.setLeft(
+                constructRecursive(
+                        inorder, preorder,
+                        inStart, rootIndex-1,
+                        preStart+1, preStart+leftSize,
+                        rootNode
+                )
+        );
+
+        rootNode.setRight(
+                constructRecursive(
+                        inorder, preorder,
+                        rootIndex+1, inEnd,
+                        preStart+leftSize+1, preEnd,
+                        rootNode
+                )
+        );
+
+        return rootNode;
+    }
+
+
+    // Wk5 Q4: print all root-to-leaf paths in any order
+    public ArrayList<ArrayList<E>> rootToLeafPaths() {
+        ArrayList<ArrayList<E>> result = new ArrayList<>();
+
+        if (root == null) return result;
+
+        ArrayList<E> currentPath = new ArrayList<>();
+        rootToLeafRecursive(root, currentPath, result);
+
+        return result;
+    }
+
+    private void rootToLeafRecursive(
+            Node<E> node,
+            ArrayList<E> currentPath,
+            ArrayList<ArrayList<E>> result
+    ) {
+        if (node == null) return;
+
+        currentPath.add(node.getElement());
+
+        if (node.getLeft() == null && node.getRight() == null) {
+            result.add(new ArrayList<>(currentPath));
+        } else {
+            rootToLeafRecursive(node.getLeft(), currentPath, result);
+            rootToLeafRecursive(node.getRight(), currentPath, result);
+        }
+
+        currentPath.remove(currentPath.size() - 1);
+    }
+
+
+    // Wk 5 Q5: write a method to print the diameter of the binary tree
+    public int diameter() {
+        maxDiameter = 0;
+        diameterRecursive(root);
+        return maxDiameter;
+    }
+
+    private int diameterRecursive(Node<E> node) {
+        if (node == null) return 0;
+
+        int leftMost = diameterRecursive(node.getLeft());
+        int rightMost = diameterRecursive(node.getRight());
+
+        int diameterThroughNode = leftMost + rightMost + 1;
+
+        maxDiameter = Math.max(maxDiameter, diameterThroughNode);
+
+        return Math.max(leftMost, rightMost) + 1;
+    }
+
 
     /**
      * Nested static class for a binary tree node.
