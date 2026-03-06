@@ -197,3 +197,156 @@ A:
         return MAX(leftMost, rightMost) + 1
     end function
 ````
+
+
+### Wk6: Recursion
+- ***Q1: Draw the recursion trace for ReverseArray(A, 0, len(A)-1) where A={12, 5, 19, 6, 11, 3, 9, 34, 2, 1, 15};***
+````
+        |  call_1
+    ReverseArray(A, 0, 10)    -> swap A[0] = 12, A[10] = 15
+        |  call_2
+    ReverseArray(A, 1, 9)     -> swap A[1] = 5, A[9] = 1
+        |  call_3
+    ReverseArray(A, 2, 8)     -> swap A[2] = 19, A[8] = 2
+        |  call_4
+    ReverseArray(A, 3, 7)     -> swap A[3] = 6, A[7] = 34
+        |  call_5
+    ReverseArray(A, 4, 6)     -> swap A[4] = 11, A[6] = 9
+        |  call_6
+    ReverseArray(A, 5, 5)   (i = j, recursion stop)
+    
+    final result: A = {15, 1, 2, 34, 9, 3, 11, 6, 19, 5, 12}
+````
+
+
+- ***Q2: Write out the recursive trace of the function for the 5th fibonacci number: Fibonacci(5).***
+````
+
+````
+
+
+- ***Q3: Draw the recursion trace for Tribonacci(9)***
+````
+
+````
+
+
+- ***Q4: What kind of recursive function is it?***  
+A: Nested recursive function because there is a recursive call M(n+11) inside a recursive call M() when n <= 100.
+
+
+- ***Q5: a) What does the function Foo do? b) What is the output of Foo(2468)***
+A:
+  - a) The function Foo() by convert the decimal number to binary by dividing 2 recursively. The base case is when x/2=0 and call Foo(x/2) recursively.
+    When achieve the base case x/2 = 0, the process of recursion stops and will backtrack to print the value of x%2 to get the binary number finally.
+  - b) 100110100100
+
+
+- ***Q6: Write the pseudocode for a recursive function which prints the elements of a linked list in reverse***
+````
+    function PRINT-REVERSE(node)
+        if node == null then:
+            return
+        end if
+        
+        call PRINT-REVERSE(node.next)
+        print node.data
+    end function
+````
+
+
+- ***Q7: Write the pseudocode for a fully recursive function which copies a linked list.***
+````
+    function COPY(node)
+        if node == null then:
+            return
+        end if
+        
+        newNode <- node.data
+        newNode.next = COPY(node.next)
+        return newNode
+    end function
+````
+
+
+- ***Q8: Draw the recursive trace for mystery(2, 4, 4).***
+````
+        |  call_1
+    mystery(2, 4, 4)    -> return d + a = 4 + 4 = 8
+        |  call_2
+    mystery(1, 4, 4)    (n == 1  Recursion Stop) -> return a = 4
+    
+The final mystery result: 8
+````
+
+
+### Wk7: PQ & Heaps
+- ***Q1: Illustration the execution of the heap.insert() method on the following input: [2, 5, 16, 4, 10, 23, 39, 18, 26, 15]***
+````
+         2
+      /    \
+     4      16
+    / \    /  \
+   5   10 23   39
+  / \  /
+18 26 15
+
+insert 2   -> [2]
+insert 5   -> [2, 5]
+insert 16  -> [2, 5, 16]
+insert 4   -> [2, 4, 16, 5]
+insert 10  -> [2, 4, 16, 5, 10]
+insert 23  -> [2, 4, 16, 5, 10, 23]
+insert 39  -> [2, 4, 16, 5, 10, 23, 39]
+insert 18  -> [2, 4, 16, 5, 10, 23, 39, 18]
+insert 26  -> [2, 4, 16, 5, 10, 23, 39, 18, 26]
+insert 15  -> [2, 4, 16, 5, 10, 23, 39, 18, 26, 15]
+````
+
+
+- ***Q2: List the nodes in the preorder traversal of the heap constructed from this array***
+````
+preorder: root -> left -> right
+2, 4, 5, 18, 26, 10, 15, 16, 23, 39
+````
+
+
+- ***Q3: List the nodes in postorder traversal of the heap constructed from this array***
+````
+postorder: left -> right -> root
+18, 26, 5, 15, 10, 4, 23, 39, 16, 2
+````
+
+
+- ***Q4: Can you construct a valid heap where a preorder traversal of the keys does not list them descending order?***
+````
+For example if you have a max-heap:
+        20
+      /    \
+    15      18
+   /  \    /  \
+ 14   13  17  16
+
+  if you do the preorder traversal to this heap, the order goes to:
+     20 -> 15 -> 14 -> 13 -> 18 -> 17 -> 16
+     
+     18 > 17: therefore, preorder traversal of the keys does not list them descending order
+````
+
+
+- ***Can you construct a valid heap where a postorder traversal of the keys does not list them ascending order?***
+````
+        2
+      /    \
+     4      16
+    / \    /  \
+   5   10 23   39
+  / \  /
+18 26 15
+
+ 
+  if you do the postorder traversal to this heap, the order goes to:
+    18, 26, 5, 15, 10, 4, 23, 39, 16, 2
+    
+    5 < 26: therefore, postorder traversal of the keys does not list them ascending order.
+````
