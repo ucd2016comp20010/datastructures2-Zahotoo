@@ -27,7 +27,25 @@ public class SplayTreeMap<K, V> extends TreeMap<K, V> {
      * Utility used to rebalance after a map operation.
      */
     private void splay(Position<Entry<K, V>> p) {
-        // TODO
+        while (!isRoot(p)) {
+            Position<Entry<K, V>> parent = parent(p);
+            Position<Entry<K, V>> grand = parent(parent);
+
+            if (grand == null) {
+                // zig: parent is root - one single rotation brings p to root
+                rotate(p);
+            } else if (parent == left(grand) == (p == left(parent))) {
+                // zig-zig: p and parent are on the same side
+                // rotate parent first , then p
+                rotate(parent);
+                rotate(p);
+            } else {
+                // zig-zag: p and parent are on different sides
+                // rotate p twice
+                rotate(p);
+                rotate(p);
+            }
+        }
     }
 
     /**
@@ -38,6 +56,12 @@ public class SplayTreeMap<K, V> extends TreeMap<K, V> {
     //@Override
     protected void rebalanceAccess(Position<Entry<K, V>> p) {
         // TODO
+        if (isExternal(p)) {
+            p = parent(p);
+        }
+        if (p != null) {
+            splay(p);
+        }
     }
 
     /**
@@ -59,6 +83,12 @@ public class SplayTreeMap<K, V> extends TreeMap<K, V> {
     //@Override
     protected void rebalanceDelete(Position<Entry<K, V>> p) {
         // TODO
+        if (isEmpty()) return;
+        if (isInternal(p)) {
+            splay(p);
+        } else if (!isRoot(p)) {
+            splay(parent(p));
+        }
     }
 
     public static void main(String[] args) {
@@ -67,6 +97,10 @@ public class SplayTreeMap<K, V> extends TreeMap<K, V> {
         Integer[] arr = new Integer[]{44, 17, 88, 8, 32, 65, 97, 28, 54, 82, 93, 21, 29, 76, 80};
         for (Integer i : arr)
             treeMap.put(i, i);
-        System.out.println("treeMap " + treeMap);
+        System.out.println("treeMap \n" + treeMap.toBinaryTreeString());
+
+        // After accessing 65, it should move to (or near) the root
+        treeMap.get(65);
+        System.out.println("After get(65): \n" + treeMap.toBinaryTreeString());
     }
 }

@@ -350,3 +350,21 @@ For example if you have a max-heap:
     
     5 < 26: therefore, postorder traversal of the keys does not list them ascending order.
 ````
+
+
+### Wk10: Practical AVL, Splay Trees
+- ***Q3: Explain how to use an AVL tree to sort a set of comparable objects in worst case O(n log n) time?***  
+A: Insert all n times into an AVL tree - each put is O(log n), so n insertions = O (n log n). Then read back via inorder()
+traversal = O(n). Therefore, total = O(n log n) worst case.
+
+
+- ***Q4: For a key K that is not found in a binary search tree T, show that both the greatest key less than K and the least key greater than K lie on the path traced by the search for k.***   
+A:  During BST search for k, at each node we go left (key > k) or right (key < k). The predecessor (greatest key < k)
+  is the last node where we went right; the successor (smallest key > k) is the last node where we went left — both are
+  on the search path.
+
+
+- ***Q5: Show that the nodes that become temporarily unbalanced in an AVL tree during an insertion may be non-consecutive on the path from the newly inserted node to the root***  
+A: An imbalance can only occur at a node with height ≥ 2. Two consecutive ancestors on the path can have the same
+  height (so neither is imbalanced), but a node further up can become imbalanced — producing non-consecutive unbalanced
+  nodes.
