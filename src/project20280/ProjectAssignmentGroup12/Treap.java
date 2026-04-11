@@ -10,13 +10,13 @@ import project20280.tree.BinaryTreePrinter;
 import project20280.tree.TreeMap;
 
 /**
- * TreapMap: Tree + Heap which is a randomised binary search tree
+ * Treap: Tree + Heap which is a randomised binary search tree
  * This class is the Treap code implementation.
  *      Each node in a Treap has:
  *          - A key (which follows BST property)
  *          - A priority (random value that follows heap property) The priority ensures probabilistic balancing of the tree
  */
-public class TreapMap<K, V> extends TreeMap<K, V> {
+public class Treap<K, V> extends TreeMap<K, V> {
 
     private static final Random rnd = new Random();
     private static final int maxPriority = 50000;
@@ -24,7 +24,7 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
     /**
      * Constructs an empty map using the natural ordering of keys
      */
-    public TreapMap() {
+    public Treap() {
         super();
     }
 
@@ -32,7 +32,7 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
      * Constructs an empty map using the given comparator to order keys.
      * @param comp comparator defining the order of keys in the map.
      */
-    public TreapMap(Comparator<K> comp) {
+    public Treap(Comparator<K> comp) {
         super(comp);
     }
 
@@ -52,12 +52,12 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
         //   |- key
         //   |- value
         //   |- left/right
-        //   |- aux     and in the TreapMap, the aux store the priority, you can assume that getAux() = getPriority()
+        //   |- aux     and in the Treap, the aux store the priority, you can assume that getAux() = getPriority()
         return tree.getAux(p);
     }
 
     /**
-     * Overrides the TreapMap rebalancing hook that is called after an insertion
+     * Overrides the Treap rebalancing hook that is called after an insertion
      * After BST insert: assign a random priority, then bubble the new node upward
      * until the heap property is restored
      */
@@ -77,7 +77,7 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
     }
 
     /**
-     * Overrides the TreapMap rebalancing hook that is called after a deletion
+     * Overrides the Treap rebalancing hook that is called after a deletion
      */
     @Override
     protected void rebalanceDelete(Position<Entry<K, V>> p) {
@@ -85,7 +85,7 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
     }
 
     /**
-     * Override the TreapMap rebalancing hook that is called after an access
+     * Override the Treap rebalancing hook that is called after an access
      */
     @Override
     protected void rebalanceAccess(Position<Entry<K, V>> p) {
@@ -182,7 +182,7 @@ public class TreapMap<K, V> extends TreeMap<K, V> {
     }
 
     public static void main(String[] args) {
-        TreapMap<Integer, Integer> treap = new TreapMap<>();
+        Treap<Integer, Integer> treap = new Treap<>();
         Integer[] arr = {5, 3, 7, 1, 4, 6, 8, 2};
 
         for (Integer i : arr) treap.put(i, i);
