@@ -368,3 +368,22 @@ A:  During BST search for k, at each node we go left (key > k) or right (key < k
 A: An imbalance can only occur at a node with height ≥ 2. Two consecutive ancestors on the path can have the same
   height (so neither is imbalanced), but a node further up can become imbalanced — producing non-consecutive unbalanced
   nodes.
+
+
+- ***Q6: Describe a modification to the binary search-tree data structure that would support the following two index-based operations for a sorted map in O(h) time, 
+where h is the height of the tree.***  
+A: Store a size field in each node = size of its subtree. Then:
+  1) atIndex(i): at each node, if leftSize == i return it; if i < leftSize go left; else go right with i - leftSize - 1. O(h).
+  2) indexOf(p): walk from p to root, accumulating left subtree sizes. O(h)
+
+
+- ***Q7: For the AVL and Splay trees, we use a pointer based representation. For the Heap data structure we used an array-based representation. An AVL Tree is almost perfectly
+balanced, so you might be tempted to use an array-based representation for an AVL tree. Describe how an AVL type rotation might be implemented with an array-based representation. 
+Can you determine the worst-case time complexity of a rotation for an array-based AVL tree?***  
+A: In an array-based tree, node at index i has children at 2i+1 and 2i+2. A rotation changes which nodes are "children" --- you'd need to physically 
+move subtrees in the array. Moving a subtree of size s costs O(s). In the worst case (rotation near the root) s = O(n), so worst-case O(n) per rotation.
+
+
+- ***Q8: What does a Splay tree look like if its entries are accessed in increasing order by their keys?***  
+A: Accessing keys in increasing order makes the splay tree into a right-skewed chain - each newly accessed key becomes the root, 
+with the previous root as its left child. The tree degenerates to a linked list (height = n).
