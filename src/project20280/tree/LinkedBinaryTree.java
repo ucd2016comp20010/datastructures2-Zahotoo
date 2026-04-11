@@ -15,6 +15,8 @@ import java.util.ArrayList;
  */
 public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTree<E> {
 
+    private static long blackhole = 0;
+
     static java.util.Random rnd = new java.util.Random();
     /**
      * The root of the binary tree
@@ -74,33 +76,45 @@ public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTre
 //        bt2.construct(inorder , preorder);
 //        System.out.println(bt2.toBinaryTreeString());
 
-        // Wk6 Q6
-        try {
-            FileWriter writer = new FileWriter("Wk5_Q6_result.csv");
-            writer.write("n,averageHeight\n");
+        // Wk5 Q6
+//        try {
+//            FileWriter writer = new FileWriter("Wk5_Q6_result.csv");
+//            writer.write("n,averageHeight\n");
+//
+//            int trials = 100;
+//
+//            for (int n = 50; n <= 5000; n += 50) {
+//
+//                double totalHeight = 0;
+//
+//                for (int i = 0; i < trials; i++) {
+//                    LinkedBinaryTree<Integer> bt3 = LinkedBinaryTree.makeRandom(n);
+//
+//                    totalHeight += bt3.height();
+//                }
+//
+//                double averageHeight = totalHeight / trials;
+//
+//                writer.write(n + ", " + averageHeight + "\n");
+//            }
+//            writer.close();
+//            System.out.println("CSV file created");
+//        } catch(IOException e) {
+//            e.printStackTrace();
+//        }
 
-            int trials = 100;
+        // Wk6 Q9
+        LinkedBinaryTree<String> bt = new LinkedBinaryTree<>();
+        String[] arr = { "A", "B", "C", "D", "E", null, "F", null, null, "G", "H", null, null, null, null };
+        bt.createLevelOrder(arr);
+        System.out.println(bt.toBinaryTreeString());
 
-            for (int n = 50; n <= 5000; n += 50) {
+        System.out.println(bt.printAllLeafNodes());
 
-                double totalHeight = 0;
 
-                for (int i = 0; i < trials; i++) {
-                    LinkedBinaryTree<Integer> bt3 = LinkedBinaryTree.makeRandom(n);
 
-                    totalHeight += bt3.height();
-                }
-
-                double averageHeight = totalHeight / trials;
-
-                writer.write(n + ", " + averageHeight + "\n");
-            }
-            writer.close();
-            System.out.println("CSV file created");
-        } catch(IOException e) {
-            e.printStackTrace();
-        }
-
+        // Wk6 Q10
+        // inorderExperiment();
     }
 
 
@@ -566,6 +580,75 @@ public class LinkedBinaryTree<E extends Comparable<E>> extends AbstractBinaryTre
         maxDiameter = Math.max(maxDiameter, diameterThroughNode);
 
         return Math.max(leftMost, rightMost) + 1;
+    }
+
+
+    // Wk6: Q9 Write a method which prints all the leaf nodes in order from left to right
+    private void printAllLeafNodes(Node<E> node, StringBuilder sb) {
+        if (node == null) return;
+        if (node.getLeft() == null && node.getRight() == null) {
+            sb.append(node.getElement());
+            return;
+        }
+
+        printAllLeafNodes(node.getLeft(), sb);
+        printAllLeafNodes(node.getRight(), sb);
+    }
+
+    public String printAllLeafNodes() {
+        StringBuilder sb = new StringBuilder("[");
+        printAllLeafNodes(root, sb);
+        sb.append("]");
+        return sb.toString();
+    }
+
+
+    // Wk 6: Q10 The complexity T(n) of the inorder method
+    public static void inorderExperiment() {
+        int[] ns = {10, 20, 50, 100, 200, 500, 1000, 2000, 5000, 10000};
+
+        int warmupRuns = 5;
+        int trials = 30;
+
+        String fileName = "Wk6_Q10_inorder_times.csv";
+
+        try (FileWriter writer = new FileWriter(fileName)) {
+            writer.write("n,avgTimeNs\n");
+
+            for (int n : ns) {
+                LinkedBinaryTree<Integer> bt = LinkedBinaryTree.makeRandom(n);
+
+                // warm-up
+                for (int i = 0; i < warmupRuns; i++) {
+                    blackhole += bt.inorderSum(bt.root);
+                }
+
+                long total = 0;
+                for (int t = 0; t < trials; t++) {
+                    long start = System.nanoTime();
+                    blackhole += bt.inorderSum(bt.root);
+                    long end = System.nanoTime();
+                    total += (end - start);
+                }
+
+                long avg = total / trials;
+                writer.write(n + "," + avg + "\n");
+                System.out.println("n=" + n + " avg(ns)=" + avg);
+            }
+
+            System.out.println("CSV created: " + fileName);
+            System.out.println("blackhole=" + blackhole);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private long inorderSum(Node<E> node) {
+        if (node == null) return 0;
+        long left = inorderSum(node.getLeft());
+        long self = node.getElement().hashCode();
+        long right = inorderSum(node.getRight());
+        return left + self + right;
     }
 
 

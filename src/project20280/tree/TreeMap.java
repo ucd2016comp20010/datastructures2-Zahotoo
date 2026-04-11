@@ -293,7 +293,7 @@ public class TreeMap<K, V> extends AbstractSortedMap<K, V> {
      * @param p   a position of the tree serving as root of a subtree
      * @return Position holding key, or last node reached during search
      */
-    private Position<Entry<K, V>> treeSearch(Position<Entry<K, V>> p, K key) {
+    protected Position<Entry<K, V>> treeSearch(Position<Entry<K, V>> p, K key) {
         if (isExternal(p)) {
             return p;
         }
