@@ -61,6 +61,12 @@ public abstract class AbstractMap<K, V> implements Map<K, V> {
         /**
          * Returns string representation (for debugging only)
          */
+        @Override
+        @SuppressWarnings("unchecked")
+        public int compareTo(Entry<K, V> other) {
+            return ((Comparable<K>) this.k).compareTo(other.getKey());
+        }
+
         public String toString() {
             //return "<" + k + ", " + v + ">";
             return String.valueOf(k);

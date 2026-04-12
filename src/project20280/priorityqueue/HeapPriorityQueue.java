@@ -184,7 +184,7 @@ public class HeapPriorityQueue<K, V> extends AbstractPriorityQueue<K, V> {
         Entry<K, V> removed = heap.get(0);
 
         swap(0, heap.size() - 1);
-        heap.removeLast();
+        heap.remove(heap.size() - 1);
 
         if (!heap.isEmpty()) { downheap(0); }
 

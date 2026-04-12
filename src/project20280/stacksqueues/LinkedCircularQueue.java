@@ -41,8 +41,7 @@ public class LinkedCircularQueue<E> implements Queue<E> {
 
     @Override
     public E first() {
-        // TODO Auto-generated method stub
-        return null;
+        return cll.get(0);
     }
 
     @Override

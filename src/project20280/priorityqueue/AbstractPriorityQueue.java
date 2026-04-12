@@ -52,6 +52,12 @@ public abstract class AbstractPriorityQueue<K, V> implements PriorityQueue<K, V>
             v = value;
         }
 
+        @Override
+        @SuppressWarnings("unchecked")
+        public int compareTo(Entry<K, V> other) {
+            return ((Comparable<K>) this.k).compareTo(other.getKey());
+        }
+
         public String toString() {
             //return "<" + k + ", " + v + ">";
             return String.valueOf(k);
