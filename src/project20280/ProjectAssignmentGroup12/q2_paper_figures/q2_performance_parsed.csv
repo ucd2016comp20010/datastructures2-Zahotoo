@@ -1,0 +1,2017 @@
+pattern,n,operation,structure,time_us
+Random,100,Batch Insert,Treap,281.84
+Random,200,Batch Insert,Treap,63.26
+Random,300,Batch Insert,Treap,179.28
+Random,400,Batch Insert,Treap,123.52
+Random,500,Batch Insert,Treap,61.24
+Random,600,Batch Insert,Treap,93.56
+Random,700,Batch Insert,Treap,108.4
+Random,800,Batch Insert,Treap,118.54
+Random,900,Batch Insert,Treap,127.2
+Random,1000,Batch Insert,Treap,146.02
+Random,1500,Batch Insert,Treap,231.74
+Random,2000,Batch Insert,Treap,322.3
+Random,2500,Batch Insert,Treap,408.26
+Random,3000,Batch Insert,Treap,503.68
+Random,3500,Batch Insert,Treap,653.3
+Random,4000,Batch Insert,Treap,676.52
+Random,4500,Batch Insert,Treap,769.42
+Random,5000,Batch Insert,Treap,888.48
+Random,5500,Batch Insert,Treap,872.06
+Random,6000,Batch Insert,Treap,979.68
+Random,6500,Batch Insert,Treap,1065.52
+Random,7000,Batch Insert,Treap,1207.26
+Random,7500,Batch Insert,Treap,1400.28
+Random,8000,Batch Insert,Treap,1390.28
+Random,8500,Batch Insert,Treap,1382.9
+Random,9000,Batch Insert,Treap,1689.18
+Random,9500,Batch Insert,Treap,1580.48
+Random,10000,Batch Insert,Treap,1753.68
+Random,100,Batch Insert,AVLTreeMap,278.02
+Random,200,Batch Insert,AVLTreeMap,36.82
+Random,300,Batch Insert,AVLTreeMap,89.56
+Random,400,Batch Insert,AVLTreeMap,158.1
+Random,500,Batch Insert,AVLTreeMap,59.28
+Random,600,Batch Insert,AVLTreeMap,73.4
+Random,700,Batch Insert,AVLTreeMap,92.02
+Random,800,Batch Insert,AVLTreeMap,99.84
+Random,900,Batch Insert,AVLTreeMap,277.64
+Random,1000,Batch Insert,AVLTreeMap,114.32
+Random,1500,Batch Insert,AVLTreeMap,225.86
+Random,2000,Batch Insert,AVLTreeMap,318.26
+Random,2500,Batch Insert,AVLTreeMap,382.04
+Random,3000,Batch Insert,AVLTreeMap,448.5
+Random,3500,Batch Insert,AVLTreeMap,566.52
+Random,4000,Batch Insert,AVLTreeMap,703.0
+Random,4500,Batch Insert,AVLTreeMap,772.96
+Random,5000,Batch Insert,AVLTreeMap,741.8
+Random,5500,Batch Insert,AVLTreeMap,793.54
+Random,6000,Batch Insert,AVLTreeMap,851.98
+Random,6500,Batch Insert,AVLTreeMap,936.7
+Random,7000,Batch Insert,AVLTreeMap,991.5
+Random,7500,Batch Insert,AVLTreeMap,1043.72
+Random,8000,Batch Insert,AVLTreeMap,1194.34
+Random,8500,Batch Insert,AVLTreeMap,1261.88
+Random,9000,Batch Insert,AVLTreeMap,1370.64
+Random,9500,Batch Insert,AVLTreeMap,1369.42
+Random,10000,Batch Insert,AVLTreeMap,1943.6
+Random,100,Batch Insert,TreeMap,117.6
+Random,200,Batch Insert,TreeMap,22.54
+Random,300,Batch Insert,TreeMap,35.26
+Random,400,Batch Insert,TreeMap,44.68
+Random,500,Batch Insert,TreeMap,55.22
+Random,600,Batch Insert,TreeMap,39.88
+Random,700,Batch Insert,TreeMap,49.64
+Random,800,Batch Insert,TreeMap,58.22
+Random,900,Batch Insert,TreeMap,403.4
+Random,1000,Batch Insert,TreeMap,433.14
+Random,1500,Batch Insert,TreeMap,218.68
+Random,2000,Batch Insert,TreeMap,223.32
+Random,2500,Batch Insert,TreeMap,277.9
+Random,3000,Batch Insert,TreeMap,454.44
+Random,3500,Batch Insert,TreeMap,459.34
+Random,4000,Batch Insert,TreeMap,470.84
+Random,4500,Batch Insert,TreeMap,513.66
+Random,5000,Batch Insert,TreeMap,521.64
+Random,5500,Batch Insert,TreeMap,570.08
+Random,6000,Batch Insert,TreeMap,633.34
+Random,6500,Batch Insert,TreeMap,678.0
+Random,7000,Batch Insert,TreeMap,781.2
+Random,7500,Batch Insert,TreeMap,997.8
+Random,8000,Batch Insert,TreeMap,868.44
+Random,8500,Batch Insert,TreeMap,969.82
+Random,9000,Batch Insert,TreeMap,1015.34
+Random,9500,Batch Insert,TreeMap,998.68
+Random,10000,Batch Insert,TreeMap,1095.04
+Sorted Ascending,100,Batch Insert,Treap,3.38
+Sorted Ascending,200,Batch Insert,Treap,6.08
+Sorted Ascending,300,Batch Insert,Treap,9.52
+Sorted Ascending,400,Batch Insert,Treap,14.42
+Sorted Ascending,500,Batch Insert,Treap,14.96
+Sorted Ascending,600,Batch Insert,Treap,20.1
+Sorted Ascending,700,Batch Insert,Treap,21.86
+Sorted Ascending,800,Batch Insert,Treap,26.34
+Sorted Ascending,900,Batch Insert,Treap,28.98
+Sorted Ascending,1000,Batch Insert,Treap,32.68
+Sorted Ascending,1500,Batch Insert,Treap,59.26
+Sorted Ascending,2000,Batch Insert,Treap,65.08
+Sorted Ascending,2500,Batch Insert,Treap,96.0
+Sorted Ascending,3000,Batch Insert,Treap,105.6
+Sorted Ascending,3500,Batch Insert,Treap,117.42
+Sorted Ascending,4000,Batch Insert,Treap,136.5
+Sorted Ascending,4500,Batch Insert,Treap,148.2
+Sorted Ascending,5000,Batch Insert,Treap,164.22
+Sorted Ascending,5500,Batch Insert,Treap,171.5
+Sorted Ascending,6000,Batch Insert,Treap,210.54
+Sorted Ascending,6500,Batch Insert,Treap,229.72
+Sorted Ascending,7000,Batch Insert,Treap,245.44
+Sorted Ascending,7500,Batch Insert,Treap,253.84
+Sorted Ascending,8000,Batch Insert,Treap,265.98
+Sorted Ascending,8500,Batch Insert,Treap,279.62
+Sorted Ascending,9000,Batch Insert,Treap,575.88
+Sorted Ascending,9500,Batch Insert,Treap,321.8
+Sorted Ascending,10000,Batch Insert,Treap,348.34
+Sorted Ascending,100,Batch Insert,AVLTreeMap,3.5
+Sorted Ascending,200,Batch Insert,AVLTreeMap,7.08
+Sorted Ascending,300,Batch Insert,AVLTreeMap,11.5
+Sorted Ascending,400,Batch Insert,AVLTreeMap,17.44
+Sorted Ascending,500,Batch Insert,AVLTreeMap,28.78
+Sorted Ascending,600,Batch Insert,AVLTreeMap,28.8
+Sorted Ascending,700,Batch Insert,AVLTreeMap,28.98
+Sorted Ascending,800,Batch Insert,AVLTreeMap,36.7
+Sorted Ascending,900,Batch Insert,AVLTreeMap,38.1
+Sorted Ascending,1000,Batch Insert,AVLTreeMap,42.42
+Sorted Ascending,1500,Batch Insert,AVLTreeMap,66.9
+Sorted Ascending,2000,Batch Insert,AVLTreeMap,97.16
+Sorted Ascending,2500,Batch Insert,AVLTreeMap,113.04
+Sorted Ascending,3000,Batch Insert,AVLTreeMap,141.2
+Sorted Ascending,3500,Batch Insert,AVLTreeMap,164.26
+Sorted Ascending,4000,Batch Insert,AVLTreeMap,184.32
+Sorted Ascending,4500,Batch Insert,AVLTreeMap,292.68
+Sorted Ascending,5000,Batch Insert,AVLTreeMap,216.2
+Sorted Ascending,5500,Batch Insert,AVLTreeMap,255.36
+Sorted Ascending,6000,Batch Insert,AVLTreeMap,294.58
+Sorted Ascending,6500,Batch Insert,AVLTreeMap,307.7
+Sorted Ascending,7000,Batch Insert,AVLTreeMap,328.88
+Sorted Ascending,7500,Batch Insert,AVLTreeMap,341.84
+Sorted Ascending,8000,Batch Insert,AVLTreeMap,364.48
+Sorted Ascending,8500,Batch Insert,AVLTreeMap,412.7
+Sorted Ascending,9000,Batch Insert,AVLTreeMap,436.02
+Sorted Ascending,9500,Batch Insert,AVLTreeMap,454.96
+Sorted Ascending,10000,Batch Insert,AVLTreeMap,475.62
+Sorted Ascending,100,Batch Insert,TreeMap,3.52
+Sorted Ascending,200,Batch Insert,TreeMap,7.16
+Sorted Ascending,300,Batch Insert,TreeMap,11.9
+Sorted Ascending,400,Batch Insert,TreeMap,16.64
+Sorted Ascending,500,Batch Insert,TreeMap,20.84
+Sorted Ascending,600,Batch Insert,TreeMap,26.0
+Sorted Ascending,700,Batch Insert,TreeMap,31.78
+Sorted Ascending,800,Batch Insert,TreeMap,35.92
+Sorted Ascending,900,Batch Insert,TreeMap,40.62
+Sorted Ascending,1000,Batch Insert,TreeMap,50.28
+Sorted Ascending,1500,Batch Insert,TreeMap,70.5
+Sorted Ascending,2000,Batch Insert,TreeMap,94.14
+Sorted Ascending,2500,Batch Insert,TreeMap,128.72
+Sorted Ascending,3000,Batch Insert,TreeMap,163.62
+Sorted Ascending,3500,Batch Insert,TreeMap,212.88
+Sorted Ascending,4000,Batch Insert,TreeMap,248.98
+Sorted Ascending,4500,Batch Insert,TreeMap,291.78
+Sorted Ascending,5000,Batch Insert,TreeMap,298.36
+Sorted Ascending,5500,Batch Insert,TreeMap,350.7
+Sorted Ascending,6000,Batch Insert,TreeMap,393.82
+Sorted Ascending,6500,Batch Insert,TreeMap,424.16
+Sorted Ascending,7000,Batch Insert,TreeMap,467.22
+Sorted Ascending,7500,Batch Insert,TreeMap,512.8
+Sorted Ascending,8000,Batch Insert,TreeMap,521.16
+Sorted Ascending,8500,Batch Insert,TreeMap,539.32
+Sorted Ascending,9000,Batch Insert,TreeMap,640.72
+Sorted Ascending,9500,Batch Insert,TreeMap,676.54
+Sorted Ascending,10000,Batch Insert,TreeMap,765.86
+Sorted Descending,100,Batch Insert,Treap,3.68
+Sorted Descending,200,Batch Insert,Treap,6.7
+Sorted Descending,300,Batch Insert,Treap,11.44
+Sorted Descending,400,Batch Insert,Treap,14.06
+Sorted Descending,500,Batch Insert,Treap,17.22
+Sorted Descending,600,Batch Insert,Treap,22.36
+Sorted Descending,700,Batch Insert,Treap,24.26
+Sorted Descending,800,Batch Insert,Treap,29.02
+Sorted Descending,900,Batch Insert,Treap,33.58
+Sorted Descending,1000,Batch Insert,Treap,38.38
+Sorted Descending,1500,Batch Insert,Treap,68.86
+Sorted Descending,2000,Batch Insert,Treap,76.86
+Sorted Descending,2500,Batch Insert,Treap,130.74
+Sorted Descending,3000,Batch Insert,Treap,124.08
+Sorted Descending,3500,Batch Insert,Treap,132.88
+Sorted Descending,4000,Batch Insert,Treap,164.26
+Sorted Descending,4500,Batch Insert,Treap,188.78
+Sorted Descending,5000,Batch Insert,Treap,189.8
+Sorted Descending,5500,Batch Insert,Treap,213.8
+Sorted Descending,6000,Batch Insert,Treap,272.72
+Sorted Descending,6500,Batch Insert,Treap,267.68
+Sorted Descending,7000,Batch Insert,Treap,290.88
+Sorted Descending,7500,Batch Insert,Treap,294.0
+Sorted Descending,8000,Batch Insert,Treap,339.28
+Sorted Descending,8500,Batch Insert,Treap,367.92
+Sorted Descending,9000,Batch Insert,Treap,373.36
+Sorted Descending,9500,Batch Insert,Treap,406.52
+Sorted Descending,10000,Batch Insert,Treap,395.86
+Sorted Descending,100,Batch Insert,AVLTreeMap,3.74
+Sorted Descending,200,Batch Insert,AVLTreeMap,7.82
+Sorted Descending,300,Batch Insert,AVLTreeMap,20.8
+Sorted Descending,400,Batch Insert,AVLTreeMap,17.54
+Sorted Descending,500,Batch Insert,AVLTreeMap,20.14
+Sorted Descending,600,Batch Insert,AVLTreeMap,26.46
+Sorted Descending,700,Batch Insert,AVLTreeMap,30.66
+Sorted Descending,800,Batch Insert,AVLTreeMap,52.0
+Sorted Descending,900,Batch Insert,AVLTreeMap,49.06
+Sorted Descending,1000,Batch Insert,AVLTreeMap,47.08
+Sorted Descending,1500,Batch Insert,AVLTreeMap,72.28
+Sorted Descending,2000,Batch Insert,AVLTreeMap,102.3
+Sorted Descending,2500,Batch Insert,AVLTreeMap,127.02
+Sorted Descending,3000,Batch Insert,AVLTreeMap,167.5
+Sorted Descending,3500,Batch Insert,AVLTreeMap,187.2
+Sorted Descending,4000,Batch Insert,AVLTreeMap,206.26
+Sorted Descending,4500,Batch Insert,AVLTreeMap,236.76
+Sorted Descending,5000,Batch Insert,AVLTreeMap,264.62
+Sorted Descending,5500,Batch Insert,AVLTreeMap,307.26
+Sorted Descending,6000,Batch Insert,AVLTreeMap,337.92
+Sorted Descending,6500,Batch Insert,AVLTreeMap,354.96
+Sorted Descending,7000,Batch Insert,AVLTreeMap,383.7
+Sorted Descending,7500,Batch Insert,AVLTreeMap,443.08
+Sorted Descending,8000,Batch Insert,AVLTreeMap,466.64
+Sorted Descending,8500,Batch Insert,AVLTreeMap,468.92
+Sorted Descending,9000,Batch Insert,AVLTreeMap,513.88
+Sorted Descending,9500,Batch Insert,AVLTreeMap,496.04
+Sorted Descending,10000,Batch Insert,AVLTreeMap,525.8
+Sorted Descending,100,Batch Insert,TreeMap,3.42
+Sorted Descending,200,Batch Insert,TreeMap,7.3
+Sorted Descending,300,Batch Insert,TreeMap,11.32
+Sorted Descending,400,Batch Insert,TreeMap,17.38
+Sorted Descending,500,Batch Insert,TreeMap,22.46
+Sorted Descending,600,Batch Insert,TreeMap,29.68
+Sorted Descending,700,Batch Insert,TreeMap,35.7
+Sorted Descending,800,Batch Insert,TreeMap,41.74
+Sorted Descending,900,Batch Insert,TreeMap,48.4
+Sorted Descending,1000,Batch Insert,TreeMap,55.8
+Sorted Descending,1500,Batch Insert,TreeMap,85.78
+Sorted Descending,2000,Batch Insert,TreeMap,276.46
+Sorted Descending,2500,Batch Insert,TreeMap,241.08
+Sorted Descending,3000,Batch Insert,TreeMap,185.82
+Sorted Descending,3500,Batch Insert,TreeMap,222.36
+Sorted Descending,4000,Batch Insert,TreeMap,263.12
+Sorted Descending,4500,Batch Insert,TreeMap,290.96
+Sorted Descending,5000,Batch Insert,TreeMap,353.76
+Sorted Descending,5500,Batch Insert,TreeMap,366.64
+Sorted Descending,6000,Batch Insert,TreeMap,418.44
+Sorted Descending,6500,Batch Insert,TreeMap,439.14
+Sorted Descending,7000,Batch Insert,TreeMap,458.66
+Sorted Descending,7500,Batch Insert,TreeMap,628.5
+Sorted Descending,8000,Batch Insert,TreeMap,620.9
+Sorted Descending,8500,Batch Insert,TreeMap,585.94
+Sorted Descending,9000,Batch Insert,TreeMap,618.3
+Sorted Descending,9500,Batch Insert,TreeMap,646.04
+Sorted Descending,10000,Batch Insert,TreeMap,684.68
+Partially Sorted,100,Batch Insert,Treap,7.1
+Partially Sorted,200,Batch Insert,Treap,16.96
+Partially Sorted,300,Batch Insert,Treap,26.32
+Partially Sorted,400,Batch Insert,Treap,33.94
+Partially Sorted,500,Batch Insert,Treap,44.82
+Partially Sorted,600,Batch Insert,Treap,56.88
+Partially Sorted,700,Batch Insert,Treap,65.82
+Partially Sorted,800,Batch Insert,Treap,77.96
+Partially Sorted,900,Batch Insert,Treap,85.16
+Partially Sorted,1000,Batch Insert,Treap,104.94
+Partially Sorted,1500,Batch Insert,Treap,155.4
+Partially Sorted,2000,Batch Insert,Treap,201.64
+Partially Sorted,2500,Batch Insert,Treap,261.4
+Partially Sorted,3000,Batch Insert,Treap,314.24
+Partially Sorted,3500,Batch Insert,Treap,379.84
+Partially Sorted,4000,Batch Insert,Treap,472.14
+Partially Sorted,4500,Batch Insert,Treap,511.12
+Partially Sorted,5000,Batch Insert,Treap,573.62
+Partially Sorted,5500,Batch Insert,Treap,618.56
+Partially Sorted,6000,Batch Insert,Treap,647.62
+Partially Sorted,6500,Batch Insert,Treap,831.62
+Partially Sorted,7000,Batch Insert,Treap,840.04
+Partially Sorted,7500,Batch Insert,Treap,849.3
+Partially Sorted,8000,Batch Insert,Treap,919.42
+Partially Sorted,8500,Batch Insert,Treap,1085.72
+Partially Sorted,9000,Batch Insert,Treap,996.86
+Partially Sorted,9500,Batch Insert,Treap,1107.96
+Partially Sorted,10000,Batch Insert,Treap,1258.36
+Partially Sorted,100,Batch Insert,AVLTreeMap,4.34
+Partially Sorted,200,Batch Insert,AVLTreeMap,9.18
+Partially Sorted,300,Batch Insert,AVLTreeMap,15.62
+Partially Sorted,400,Batch Insert,AVLTreeMap,21.76
+Partially Sorted,500,Batch Insert,AVLTreeMap,27.48
+Partially Sorted,600,Batch Insert,AVLTreeMap,36.4
+Partially Sorted,700,Batch Insert,AVLTreeMap,45.9
+Partially Sorted,800,Batch Insert,AVLTreeMap,55.26
+Partially Sorted,900,Batch Insert,AVLTreeMap,70.1
+Partially Sorted,1000,Batch Insert,AVLTreeMap,76.02
+Partially Sorted,1500,Batch Insert,AVLTreeMap,134.82
+Partially Sorted,2000,Batch Insert,AVLTreeMap,178.8
+Partially Sorted,2500,Batch Insert,AVLTreeMap,233.16
+Partially Sorted,3000,Batch Insert,AVLTreeMap,282.5
+Partially Sorted,3500,Batch Insert,AVLTreeMap,376.02
+Partially Sorted,4000,Batch Insert,AVLTreeMap,399.54
+Partially Sorted,4500,Batch Insert,AVLTreeMap,459.38
+Partially Sorted,5000,Batch Insert,AVLTreeMap,535.9
+Partially Sorted,5500,Batch Insert,AVLTreeMap,528.08
+Partially Sorted,6000,Batch Insert,AVLTreeMap,655.46
+Partially Sorted,6500,Batch Insert,AVLTreeMap,764.88
+Partially Sorted,7000,Batch Insert,AVLTreeMap,812.74
+Partially Sorted,7500,Batch Insert,AVLTreeMap,751.9
+Partially Sorted,8000,Batch Insert,AVLTreeMap,873.14
+Partially Sorted,8500,Batch Insert,AVLTreeMap,995.56
+Partially Sorted,9000,Batch Insert,AVLTreeMap,980.04
+Partially Sorted,9500,Batch Insert,AVLTreeMap,1063.48
+Partially Sorted,10000,Batch Insert,AVLTreeMap,1147.98
+Partially Sorted,100,Batch Insert,TreeMap,3.68
+Partially Sorted,200,Batch Insert,TreeMap,8.88
+Partially Sorted,300,Batch Insert,TreeMap,13.3
+Partially Sorted,400,Batch Insert,TreeMap,19.66
+Partially Sorted,500,Batch Insert,TreeMap,30.18
+Partially Sorted,600,Batch Insert,TreeMap,36.8
+Partially Sorted,700,Batch Insert,TreeMap,45.1
+Partially Sorted,800,Batch Insert,TreeMap,51.34
+Partially Sorted,900,Batch Insert,TreeMap,61.02
+Partially Sorted,1000,Batch Insert,TreeMap,73.66
+Partially Sorted,1500,Batch Insert,TreeMap,156.18
+Partially Sorted,2000,Batch Insert,TreeMap,153.8
+Partially Sorted,2500,Batch Insert,TreeMap,216.78
+Partially Sorted,3000,Batch Insert,TreeMap,246.36
+Partially Sorted,3500,Batch Insert,TreeMap,310.02
+Partially Sorted,4000,Batch Insert,TreeMap,379.46
+Partially Sorted,4500,Batch Insert,TreeMap,392.9
+Partially Sorted,5000,Batch Insert,TreeMap,462.14
+Partially Sorted,5500,Batch Insert,TreeMap,473.76
+Partially Sorted,6000,Batch Insert,TreeMap,551.8
+Partially Sorted,6500,Batch Insert,TreeMap,633.08
+Partially Sorted,7000,Batch Insert,TreeMap,657.86
+Partially Sorted,7500,Batch Insert,TreeMap,711.3
+Partially Sorted,8000,Batch Insert,TreeMap,882.36
+Partially Sorted,8500,Batch Insert,TreeMap,794.66
+Partially Sorted,9000,Batch Insert,TreeMap,909.5
+Partially Sorted,9500,Batch Insert,TreeMap,934.34
+Partially Sorted,10000,Batch Insert,TreeMap,1001.06
+Random,100,Single Insert,Treap,0.58
+Random,200,Single Insert,Treap,0.292
+Random,300,Single Insert,Treap,0.521
+Random,400,Single Insert,Treap,0.316
+Random,500,Single Insert,Treap,0.172
+Random,600,Single Insert,Treap,0.095
+Random,700,Single Insert,Treap,0.106
+Random,800,Single Insert,Treap,0.09
+Random,900,Single Insert,Treap,0.073
+Random,1000,Single Insert,Treap,0.075
+Random,1500,Single Insert,Treap,0.108
+Random,2000,Single Insert,Treap,0.087
+Random,2500,Single Insert,Treap,0.088
+Random,3000,Single Insert,Treap,0.086
+Random,3500,Single Insert,Treap,0.092
+Random,4000,Single Insert,Treap,0.078
+Random,4500,Single Insert,Treap,0.071
+Random,5000,Single Insert,Treap,0.079
+Random,5500,Single Insert,Treap,0.072
+Random,6000,Single Insert,Treap,0.043
+Random,6500,Single Insert,Treap,0.06
+Random,7000,Single Insert,Treap,0.046
+Random,7500,Single Insert,Treap,0.172
+Random,8000,Single Insert,Treap,0.048
+Random,8500,Single Insert,Treap,0.058
+Random,9000,Single Insert,Treap,0.038
+Random,9500,Single Insert,Treap,0.061
+Random,10000,Single Insert,Treap,0.07
+Random,100,Single Insert,AVLTreeMap,0.559
+Random,200,Single Insert,AVLTreeMap,0.41
+Random,300,Single Insert,AVLTreeMap,0.398
+Random,400,Single Insert,AVLTreeMap,0.254
+Random,500,Single Insert,AVLTreeMap,0.221
+Random,600,Single Insert,AVLTreeMap,0.118
+Random,700,Single Insert,AVLTreeMap,0.1
+Random,800,Single Insert,AVLTreeMap,0.089
+Random,900,Single Insert,AVLTreeMap,0.119
+Random,1000,Single Insert,AVLTreeMap,0.092
+Random,1500,Single Insert,AVLTreeMap,0.112
+Random,2000,Single Insert,AVLTreeMap,0.134
+Random,2500,Single Insert,AVLTreeMap,0.089
+Random,3000,Single Insert,AVLTreeMap,0.092
+Random,3500,Single Insert,AVLTreeMap,0.084
+Random,4000,Single Insert,AVLTreeMap,0.144
+Random,4500,Single Insert,AVLTreeMap,0.075
+Random,5000,Single Insert,AVLTreeMap,0.093
+Random,5500,Single Insert,AVLTreeMap,0.059
+Random,6000,Single Insert,AVLTreeMap,0.089
+Random,6500,Single Insert,AVLTreeMap,0.083
+Random,7000,Single Insert,AVLTreeMap,0.087
+Random,7500,Single Insert,AVLTreeMap,0.063
+Random,8000,Single Insert,AVLTreeMap,0.065
+Random,8500,Single Insert,AVLTreeMap,0.068
+Random,9000,Single Insert,AVLTreeMap,0.076
+Random,9500,Single Insert,AVLTreeMap,0.059
+Random,10000,Single Insert,AVLTreeMap,0.056
+Random,100,Single Insert,TreeMap,0.305
+Random,200,Single Insert,TreeMap,0.135
+Random,300,Single Insert,TreeMap,0.131
+Random,400,Single Insert,TreeMap,0.152
+Random,500,Single Insert,TreeMap,0.087
+Random,600,Single Insert,TreeMap,0.043
+Random,700,Single Insert,TreeMap,0.041
+Random,800,Single Insert,TreeMap,0.04
+Random,900,Single Insert,TreeMap,0.133
+Random,1000,Single Insert,TreeMap,0.177
+Random,1500,Single Insert,TreeMap,0.06
+Random,2000,Single Insert,TreeMap,0.057
+Random,2500,Single Insert,TreeMap,0.049
+Random,3000,Single Insert,TreeMap,0.064
+Random,3500,Single Insert,TreeMap,0.056
+Random,4000,Single Insert,TreeMap,0.054
+Random,4500,Single Insert,TreeMap,0.038
+Random,5000,Single Insert,TreeMap,0.034
+Random,5500,Single Insert,TreeMap,0.03
+Random,6000,Single Insert,TreeMap,0.035
+Random,6500,Single Insert,TreeMap,0.034
+Random,7000,Single Insert,TreeMap,0.047
+Random,7500,Single Insert,TreeMap,0.036
+Random,8000,Single Insert,TreeMap,0.039
+Random,8500,Single Insert,TreeMap,0.035
+Random,9000,Single Insert,TreeMap,0.037
+Random,9500,Single Insert,TreeMap,0.031
+Random,10000,Single Insert,TreeMap,0.039
+Sorted Ascending,100,Single Insert,Treap,0.048
+Sorted Ascending,200,Single Insert,Treap,0.046
+Sorted Ascending,300,Single Insert,Treap,0.039
+Sorted Ascending,400,Single Insert,Treap,0.064
+Sorted Ascending,500,Single Insert,Treap,0.044
+Sorted Ascending,600,Single Insert,Treap,0.044
+Sorted Ascending,700,Single Insert,Treap,0.041
+Sorted Ascending,800,Single Insert,Treap,0.066
+Sorted Ascending,900,Single Insert,Treap,0.047
+Sorted Ascending,1000,Single Insert,Treap,0.042
+Sorted Ascending,1500,Single Insert,Treap,0.048
+Sorted Ascending,2000,Single Insert,Treap,0.085
+Sorted Ascending,2500,Single Insert,Treap,0.055
+Sorted Ascending,3000,Single Insert,Treap,0.046
+Sorted Ascending,3500,Single Insert,Treap,0.047
+Sorted Ascending,4000,Single Insert,Treap,0.05
+Sorted Ascending,4500,Single Insert,Treap,0.049
+Sorted Ascending,5000,Single Insert,Treap,0.049
+Sorted Ascending,5500,Single Insert,Treap,0.037
+Sorted Ascending,6000,Single Insert,Treap,0.068
+Sorted Ascending,6500,Single Insert,Treap,0.04
+Sorted Ascending,7000,Single Insert,Treap,0.066
+Sorted Ascending,7500,Single Insert,Treap,0.065
+Sorted Ascending,8000,Single Insert,Treap,0.063
+Sorted Ascending,8500,Single Insert,Treap,0.078
+Sorted Ascending,9000,Single Insert,Treap,0.077
+Sorted Ascending,9500,Single Insert,Treap,0.058
+Sorted Ascending,10000,Single Insert,Treap,0.08
+Sorted Ascending,100,Single Insert,AVLTreeMap,0.043
+Sorted Ascending,200,Single Insert,AVLTreeMap,0.044
+Sorted Ascending,300,Single Insert,AVLTreeMap,0.044
+Sorted Ascending,400,Single Insert,AVLTreeMap,0.047
+Sorted Ascending,500,Single Insert,AVLTreeMap,0.05
+Sorted Ascending,600,Single Insert,AVLTreeMap,0.048
+Sorted Ascending,700,Single Insert,AVLTreeMap,0.051
+Sorted Ascending,800,Single Insert,AVLTreeMap,0.047
+Sorted Ascending,900,Single Insert,AVLTreeMap,0.048
+Sorted Ascending,1000,Single Insert,AVLTreeMap,0.054
+Sorted Ascending,1500,Single Insert,AVLTreeMap,0.061
+Sorted Ascending,2000,Single Insert,AVLTreeMap,0.058
+Sorted Ascending,2500,Single Insert,AVLTreeMap,0.056
+Sorted Ascending,3000,Single Insert,AVLTreeMap,0.057
+Sorted Ascending,3500,Single Insert,AVLTreeMap,0.057
+Sorted Ascending,4000,Single Insert,AVLTreeMap,0.056
+Sorted Ascending,4500,Single Insert,AVLTreeMap,0.074
+Sorted Ascending,5000,Single Insert,AVLTreeMap,0.055
+Sorted Ascending,5500,Single Insert,AVLTreeMap,0.061
+Sorted Ascending,6000,Single Insert,AVLTreeMap,0.062
+Sorted Ascending,6500,Single Insert,AVLTreeMap,0.056
+Sorted Ascending,7000,Single Insert,AVLTreeMap,0.059
+Sorted Ascending,7500,Single Insert,AVLTreeMap,0.057
+Sorted Ascending,8000,Single Insert,AVLTreeMap,0.058
+Sorted Ascending,8500,Single Insert,AVLTreeMap,0.06
+Sorted Ascending,9000,Single Insert,AVLTreeMap,0.065
+Sorted Ascending,9500,Single Insert,AVLTreeMap,0.065
+Sorted Ascending,10000,Single Insert,AVLTreeMap,0.06
+Sorted Ascending,100,Single Insert,TreeMap,0.033
+Sorted Ascending,200,Single Insert,TreeMap,0.032
+Sorted Ascending,300,Single Insert,TreeMap,0.041
+Sorted Ascending,400,Single Insert,TreeMap,0.04
+Sorted Ascending,500,Single Insert,TreeMap,0.041
+Sorted Ascending,600,Single Insert,TreeMap,0.043
+Sorted Ascending,700,Single Insert,TreeMap,0.043
+Sorted Ascending,800,Single Insert,TreeMap,0.049
+Sorted Ascending,900,Single Insert,TreeMap,0.046
+Sorted Ascending,1000,Single Insert,TreeMap,0.047
+Sorted Ascending,1500,Single Insert,TreeMap,0.05
+Sorted Ascending,2000,Single Insert,TreeMap,0.054
+Sorted Ascending,2500,Single Insert,TreeMap,0.067
+Sorted Ascending,3000,Single Insert,TreeMap,0.058
+Sorted Ascending,3500,Single Insert,TreeMap,0.077
+Sorted Ascending,4000,Single Insert,TreeMap,0.061
+Sorted Ascending,4500,Single Insert,TreeMap,0.09
+Sorted Ascending,5000,Single Insert,TreeMap,0.091
+Sorted Ascending,5500,Single Insert,TreeMap,0.095
+Sorted Ascending,6000,Single Insert,TreeMap,0.098
+Sorted Ascending,6500,Single Insert,TreeMap,0.1
+Sorted Ascending,7000,Single Insert,TreeMap,0.099
+Sorted Ascending,7500,Single Insert,TreeMap,0.093
+Sorted Ascending,8000,Single Insert,TreeMap,0.093
+Sorted Ascending,8500,Single Insert,TreeMap,0.101
+Sorted Ascending,9000,Single Insert,TreeMap,0.104
+Sorted Ascending,9500,Single Insert,TreeMap,0.105
+Sorted Ascending,10000,Single Insert,TreeMap,0.126
+Sorted Descending,100,Single Insert,Treap,0.027
+Sorted Descending,200,Single Insert,Treap,0.032
+Sorted Descending,300,Single Insert,Treap,0.038
+Sorted Descending,400,Single Insert,Treap,0.047
+Sorted Descending,500,Single Insert,Treap,0.05
+Sorted Descending,600,Single Insert,Treap,0.043
+Sorted Descending,700,Single Insert,Treap,0.049
+Sorted Descending,800,Single Insert,Treap,0.067
+Sorted Descending,900,Single Insert,Treap,0.046
+Sorted Descending,1000,Single Insert,Treap,0.062
+Sorted Descending,1500,Single Insert,Treap,0.072
+Sorted Descending,2000,Single Insert,Treap,0.058
+Sorted Descending,2500,Single Insert,Treap,0.053
+Sorted Descending,3000,Single Insert,Treap,0.08
+Sorted Descending,3500,Single Insert,Treap,0.07
+Sorted Descending,4000,Single Insert,Treap,0.064
+Sorted Descending,4500,Single Insert,Treap,0.048
+Sorted Descending,5000,Single Insert,Treap,0.032
+Sorted Descending,5500,Single Insert,Treap,0.066
+Sorted Descending,6000,Single Insert,Treap,0.083
+Sorted Descending,6500,Single Insert,Treap,0.044
+Sorted Descending,7000,Single Insert,Treap,0.081
+Sorted Descending,7500,Single Insert,Treap,0.087
+Sorted Descending,8000,Single Insert,Treap,0.047
+Sorted Descending,8500,Single Insert,Treap,0.089
+Sorted Descending,9000,Single Insert,Treap,0.057
+Sorted Descending,9500,Single Insert,Treap,0.05
+Sorted Descending,10000,Single Insert,Treap,0.041
+Sorted Descending,100,Single Insert,AVLTreeMap,0.072
+Sorted Descending,200,Single Insert,AVLTreeMap,0.082
+Sorted Descending,300,Single Insert,AVLTreeMap,0.09
+Sorted Descending,400,Single Insert,AVLTreeMap,0.084
+Sorted Descending,500,Single Insert,AVLTreeMap,0.106
+Sorted Descending,600,Single Insert,AVLTreeMap,0.083
+Sorted Descending,700,Single Insert,AVLTreeMap,0.21
+Sorted Descending,800,Single Insert,AVLTreeMap,0.117
+Sorted Descending,900,Single Insert,AVLTreeMap,0.105
+Sorted Descending,1000,Single Insert,AVLTreeMap,0.105
+Sorted Descending,1500,Single Insert,AVLTreeMap,0.101
+Sorted Descending,2000,Single Insert,AVLTreeMap,0.124
+Sorted Descending,2500,Single Insert,AVLTreeMap,0.115
+Sorted Descending,3000,Single Insert,AVLTreeMap,0.13
+Sorted Descending,3500,Single Insert,AVLTreeMap,0.124
+Sorted Descending,4000,Single Insert,AVLTreeMap,0.125
+Sorted Descending,4500,Single Insert,AVLTreeMap,0.116
+Sorted Descending,5000,Single Insert,AVLTreeMap,0.116
+Sorted Descending,5500,Single Insert,AVLTreeMap,0.123
+Sorted Descending,6000,Single Insert,AVLTreeMap,0.119
+Sorted Descending,6500,Single Insert,AVLTreeMap,0.13
+Sorted Descending,7000,Single Insert,AVLTreeMap,0.138
+Sorted Descending,7500,Single Insert,AVLTreeMap,0.126
+Sorted Descending,8000,Single Insert,AVLTreeMap,0.135
+Sorted Descending,8500,Single Insert,AVLTreeMap,0.136
+Sorted Descending,9000,Single Insert,AVLTreeMap,0.131
+Sorted Descending,9500,Single Insert,AVLTreeMap,0.128
+Sorted Descending,10000,Single Insert,AVLTreeMap,0.127
+Sorted Descending,100,Single Insert,TreeMap,0.019
+Sorted Descending,200,Single Insert,TreeMap,0.019
+Sorted Descending,300,Single Insert,TreeMap,0.019
+Sorted Descending,400,Single Insert,TreeMap,0.022
+Sorted Descending,500,Single Insert,TreeMap,0.023
+Sorted Descending,600,Single Insert,TreeMap,0.022
+Sorted Descending,700,Single Insert,TreeMap,0.025
+Sorted Descending,800,Single Insert,TreeMap,0.026
+Sorted Descending,900,Single Insert,TreeMap,0.024
+Sorted Descending,1000,Single Insert,TreeMap,0.031
+Sorted Descending,1500,Single Insert,TreeMap,0.028
+Sorted Descending,2000,Single Insert,TreeMap,0.029
+Sorted Descending,2500,Single Insert,TreeMap,0.026
+Sorted Descending,3000,Single Insert,TreeMap,0.032
+Sorted Descending,3500,Single Insert,TreeMap,0.03
+Sorted Descending,4000,Single Insert,TreeMap,0.032
+Sorted Descending,4500,Single Insert,TreeMap,0.03
+Sorted Descending,5000,Single Insert,TreeMap,0.029
+Sorted Descending,5500,Single Insert,TreeMap,0.034
+Sorted Descending,6000,Single Insert,TreeMap,0.032
+Sorted Descending,6500,Single Insert,TreeMap,0.033
+Sorted Descending,7000,Single Insert,TreeMap,0.041
+Sorted Descending,7500,Single Insert,TreeMap,0.052
+Sorted Descending,8000,Single Insert,TreeMap,0.035
+Sorted Descending,8500,Single Insert,TreeMap,0.036
+Sorted Descending,9000,Single Insert,TreeMap,0.034
+Sorted Descending,9500,Single Insert,TreeMap,0.035
+Sorted Descending,10000,Single Insert,TreeMap,0.033
+Partially Sorted,100,Single Insert,Treap,0.047
+Partially Sorted,200,Single Insert,Treap,0.068
+Partially Sorted,300,Single Insert,Treap,0.061
+Partially Sorted,400,Single Insert,Treap,0.047
+Partially Sorted,500,Single Insert,Treap,0.038
+Partially Sorted,600,Single Insert,Treap,0.038
+Partially Sorted,700,Single Insert,Treap,0.046
+Partially Sorted,800,Single Insert,Treap,0.044
+Partially Sorted,900,Single Insert,Treap,0.058
+Partially Sorted,1000,Single Insert,Treap,0.07
+Partially Sorted,1500,Single Insert,Treap,0.052
+Partially Sorted,2000,Single Insert,Treap,0.054
+Partially Sorted,2500,Single Insert,Treap,0.04
+Partially Sorted,3000,Single Insert,Treap,0.047
+Partially Sorted,3500,Single Insert,Treap,0.058
+Partially Sorted,4000,Single Insert,Treap,0.05
+Partially Sorted,4500,Single Insert,Treap,0.066
+Partially Sorted,5000,Single Insert,Treap,0.064
+Partially Sorted,5500,Single Insert,Treap,0.036
+Partially Sorted,6000,Single Insert,Treap,0.064
+Partially Sorted,6500,Single Insert,Treap,0.095
+Partially Sorted,7000,Single Insert,Treap,0.077
+Partially Sorted,7500,Single Insert,Treap,0.04
+Partially Sorted,8000,Single Insert,Treap,0.057
+Partially Sorted,8500,Single Insert,Treap,0.11
+Partially Sorted,9000,Single Insert,Treap,0.059
+Partially Sorted,9500,Single Insert,Treap,0.058
+Partially Sorted,10000,Single Insert,Treap,0.064
+Partially Sorted,100,Single Insert,AVLTreeMap,0.053
+Partially Sorted,200,Single Insert,AVLTreeMap,0.045
+Partially Sorted,300,Single Insert,AVLTreeMap,0.059
+Partially Sorted,400,Single Insert,AVLTreeMap,0.061
+Partially Sorted,500,Single Insert,AVLTreeMap,0.052
+Partially Sorted,600,Single Insert,AVLTreeMap,0.055
+Partially Sorted,700,Single Insert,AVLTreeMap,0.053
+Partially Sorted,800,Single Insert,AVLTreeMap,0.063
+Partially Sorted,900,Single Insert,AVLTreeMap,0.061
+Partially Sorted,1000,Single Insert,AVLTreeMap,0.058
+Partially Sorted,1500,Single Insert,AVLTreeMap,0.058
+Partially Sorted,2000,Single Insert,AVLTreeMap,0.064
+Partially Sorted,2500,Single Insert,AVLTreeMap,0.059
+Partially Sorted,3000,Single Insert,AVLTreeMap,0.071
+Partially Sorted,3500,Single Insert,AVLTreeMap,0.075
+Partially Sorted,4000,Single Insert,AVLTreeMap,0.061
+Partially Sorted,4500,Single Insert,AVLTreeMap,0.063
+Partially Sorted,5000,Single Insert,AVLTreeMap,0.065
+Partially Sorted,5500,Single Insert,AVLTreeMap,0.081
+Partially Sorted,6000,Single Insert,AVLTreeMap,0.06
+Partially Sorted,6500,Single Insert,AVLTreeMap,0.069
+Partially Sorted,7000,Single Insert,AVLTreeMap,0.096
+Partially Sorted,7500,Single Insert,AVLTreeMap,0.076
+Partially Sorted,8000,Single Insert,AVLTreeMap,0.076
+Partially Sorted,8500,Single Insert,AVLTreeMap,0.12
+Partially Sorted,9000,Single Insert,AVLTreeMap,0.069
+Partially Sorted,9500,Single Insert,AVLTreeMap,0.072
+Partially Sorted,10000,Single Insert,AVLTreeMap,0.071
+Partially Sorted,100,Single Insert,TreeMap,0.023
+Partially Sorted,200,Single Insert,TreeMap,0.029
+Partially Sorted,300,Single Insert,TreeMap,0.031
+Partially Sorted,400,Single Insert,TreeMap,0.033
+Partially Sorted,500,Single Insert,TreeMap,0.038
+Partially Sorted,600,Single Insert,TreeMap,0.034
+Partially Sorted,700,Single Insert,TreeMap,0.037
+Partially Sorted,800,Single Insert,TreeMap,0.039
+Partially Sorted,900,Single Insert,TreeMap,0.04
+Partially Sorted,1000,Single Insert,TreeMap,0.038
+Partially Sorted,1500,Single Insert,TreeMap,0.038
+Partially Sorted,2000,Single Insert,TreeMap,0.041
+Partially Sorted,2500,Single Insert,TreeMap,0.125
+Partially Sorted,3000,Single Insert,TreeMap,0.052
+Partially Sorted,3500,Single Insert,TreeMap,0.054
+Partially Sorted,4000,Single Insert,TreeMap,0.053
+Partially Sorted,4500,Single Insert,TreeMap,0.067
+Partially Sorted,5000,Single Insert,TreeMap,0.052
+Partially Sorted,5500,Single Insert,TreeMap,0.056
+Partially Sorted,6000,Single Insert,TreeMap,0.05
+Partially Sorted,6500,Single Insert,TreeMap,0.074
+Partially Sorted,7000,Single Insert,TreeMap,0.087
+Partially Sorted,7500,Single Insert,TreeMap,0.086
+Partially Sorted,8000,Single Insert,TreeMap,0.067
+Partially Sorted,8500,Single Insert,TreeMap,0.09
+Partially Sorted,9000,Single Insert,TreeMap,0.086
+Partially Sorted,9500,Single Insert,TreeMap,0.059
+Partially Sorted,10000,Single Insert,TreeMap,0.088
+Random,100,Search (hit),Treap,23.62
+Random,200,Search (hit),Treap,25.94
+Random,300,Search (hit),Treap,33.66
+Random,400,Search (hit),Treap,23.28
+Random,500,Search (hit),Treap,33.52
+Random,600,Search (hit),Treap,31.14
+Random,700,Search (hit),Treap,42.06
+Random,800,Search (hit),Treap,47.94
+Random,900,Search (hit),Treap,82.06
+Random,1000,Search (hit),Treap,78.36
+Random,1500,Search (hit),Treap,131.32
+Random,2000,Search (hit),Treap,196.08
+Random,2500,Search (hit),Treap,270.36
+Random,3000,Search (hit),Treap,347.18
+Random,3500,Search (hit),Treap,435.54
+Random,4000,Search (hit),Treap,481.5
+Random,4500,Search (hit),Treap,710.4
+Random,5000,Search (hit),Treap,671.44
+Random,5500,Search (hit),Treap,685.24
+Random,6000,Search (hit),Treap,743.38
+Random,6500,Search (hit),Treap,846.4
+Random,7000,Search (hit),Treap,948.34
+Random,7500,Search (hit),Treap,895.78
+Random,8000,Search (hit),Treap,1108.04
+Random,8500,Search (hit),Treap,1146.88
+Random,9000,Search (hit),Treap,1379.18
+Random,9500,Search (hit),Treap,1470.48
+Random,10000,Search (hit),Treap,1336.44
+Random,100,Search (hit),AVLTreeMap,14.72
+Random,200,Search (hit),AVLTreeMap,21.78
+Random,300,Search (hit),AVLTreeMap,31.64
+Random,400,Search (hit),AVLTreeMap,19.28
+Random,500,Search (hit),AVLTreeMap,24.78
+Random,600,Search (hit),AVLTreeMap,29.94
+Random,700,Search (hit),AVLTreeMap,38.98
+Random,800,Search (hit),AVLTreeMap,44.16
+Random,900,Search (hit),AVLTreeMap,54.54
+Random,1000,Search (hit),AVLTreeMap,65.16
+Random,1500,Search (hit),AVLTreeMap,125.88
+Random,2000,Search (hit),AVLTreeMap,194.5
+Random,2500,Search (hit),AVLTreeMap,249.1
+Random,3000,Search (hit),AVLTreeMap,444.84
+Random,3500,Search (hit),AVLTreeMap,349.5
+Random,4000,Search (hit),AVLTreeMap,439.66
+Random,4500,Search (hit),AVLTreeMap,616.0
+Random,5000,Search (hit),AVLTreeMap,545.08
+Random,5500,Search (hit),AVLTreeMap,592.8
+Random,6000,Search (hit),AVLTreeMap,685.94
+Random,6500,Search (hit),AVLTreeMap,706.54
+Random,7000,Search (hit),AVLTreeMap,775.5
+Random,7500,Search (hit),AVLTreeMap,803.0
+Random,8000,Search (hit),AVLTreeMap,923.32
+Random,8500,Search (hit),AVLTreeMap,975.7
+Random,9000,Search (hit),AVLTreeMap,1021.58
+Random,9500,Search (hit),AVLTreeMap,1146.22
+Random,10000,Search (hit),AVLTreeMap,1321.2
+Random,100,Search (hit),TreeMap,12.56
+Random,200,Search (hit),TreeMap,131.68
+Random,300,Search (hit),TreeMap,132.5
+Random,400,Search (hit),TreeMap,31.46
+Random,500,Search (hit),TreeMap,29.02
+Random,600,Search (hit),TreeMap,31.28
+Random,700,Search (hit),TreeMap,37.22
+Random,800,Search (hit),TreeMap,44.52
+Random,900,Search (hit),TreeMap,58.2
+Random,1000,Search (hit),TreeMap,65.68
+Random,1500,Search (hit),TreeMap,113.9
+Random,2000,Search (hit),TreeMap,195.06
+Random,2500,Search (hit),TreeMap,223.82
+Random,3000,Search (hit),TreeMap,281.0
+Random,3500,Search (hit),TreeMap,273.96
+Random,4000,Search (hit),TreeMap,398.9
+Random,4500,Search (hit),TreeMap,371.34
+Random,5000,Search (hit),TreeMap,395.64
+Random,5500,Search (hit),TreeMap,456.96
+Random,6000,Search (hit),TreeMap,495.3
+Random,6500,Search (hit),TreeMap,538.98
+Random,7000,Search (hit),TreeMap,632.34
+Random,7500,Search (hit),TreeMap,625.1
+Random,8000,Search (hit),TreeMap,688.64
+Random,8500,Search (hit),TreeMap,781.46
+Random,9000,Search (hit),TreeMap,782.5
+Random,9500,Search (hit),TreeMap,780.7
+Random,10000,Search (hit),TreeMap,861.54
+Sorted Ascending,100,Search (hit),Treap,2.56
+Sorted Ascending,200,Search (hit),Treap,5.92
+Sorted Ascending,300,Search (hit),Treap,10.14
+Sorted Ascending,400,Search (hit),Treap,15.28
+Sorted Ascending,500,Search (hit),Treap,18.2
+Sorted Ascending,600,Search (hit),Treap,24.06
+Sorted Ascending,700,Search (hit),Treap,24.72
+Sorted Ascending,800,Search (hit),Treap,30.96
+Sorted Ascending,900,Search (hit),Treap,35.96
+Sorted Ascending,1000,Search (hit),Treap,52.56
+Sorted Ascending,1500,Search (hit),Treap,71.3
+Sorted Ascending,2000,Search (hit),Treap,100.48
+Sorted Ascending,2500,Search (hit),Treap,125.62
+Sorted Ascending,3000,Search (hit),Treap,176.66
+Sorted Ascending,3500,Search (hit),Treap,194.52
+Sorted Ascending,4000,Search (hit),Treap,223.4
+Sorted Ascending,4500,Search (hit),Treap,243.06
+Sorted Ascending,5000,Search (hit),Treap,290.72
+Sorted Ascending,5500,Search (hit),Treap,332.54
+Sorted Ascending,6000,Search (hit),Treap,357.48
+Sorted Ascending,6500,Search (hit),Treap,381.62
+Sorted Ascending,7000,Search (hit),Treap,440.86
+Sorted Ascending,7500,Search (hit),Treap,428.04
+Sorted Ascending,8000,Search (hit),Treap,476.6
+Sorted Ascending,8500,Search (hit),Treap,481.74
+Sorted Ascending,9000,Search (hit),Treap,607.56
+Sorted Ascending,9500,Search (hit),Treap,601.32
+Sorted Ascending,10000,Search (hit),Treap,613.16
+Sorted Ascending,100,Search (hit),AVLTreeMap,2.34
+Sorted Ascending,200,Search (hit),AVLTreeMap,5.02
+Sorted Ascending,300,Search (hit),AVLTreeMap,7.8
+Sorted Ascending,400,Search (hit),AVLTreeMap,13.98
+Sorted Ascending,500,Search (hit),AVLTreeMap,13.98
+Sorted Ascending,600,Search (hit),AVLTreeMap,18.64
+Sorted Ascending,700,Search (hit),AVLTreeMap,24.12
+Sorted Ascending,800,Search (hit),AVLTreeMap,26.18
+Sorted Ascending,900,Search (hit),AVLTreeMap,33.38
+Sorted Ascending,1000,Search (hit),AVLTreeMap,36.98
+Sorted Ascending,1500,Search (hit),AVLTreeMap,64.02
+Sorted Ascending,2000,Search (hit),AVLTreeMap,86.82
+Sorted Ascending,2500,Search (hit),AVLTreeMap,109.24
+Sorted Ascending,3000,Search (hit),AVLTreeMap,139.32
+Sorted Ascending,3500,Search (hit),AVLTreeMap,201.68
+Sorted Ascending,4000,Search (hit),AVLTreeMap,191.1
+Sorted Ascending,4500,Search (hit),AVLTreeMap,227.14
+Sorted Ascending,5000,Search (hit),AVLTreeMap,247.02
+Sorted Ascending,5500,Search (hit),AVLTreeMap,263.88
+Sorted Ascending,6000,Search (hit),AVLTreeMap,307.98
+Sorted Ascending,6500,Search (hit),AVLTreeMap,321.46
+Sorted Ascending,7000,Search (hit),AVLTreeMap,357.62
+Sorted Ascending,7500,Search (hit),AVLTreeMap,356.16
+Sorted Ascending,8000,Search (hit),AVLTreeMap,399.98
+Sorted Ascending,8500,Search (hit),AVLTreeMap,416.88
+Sorted Ascending,9000,Search (hit),AVLTreeMap,558.98
+Sorted Ascending,9500,Search (hit),AVLTreeMap,505.28
+Sorted Ascending,10000,Search (hit),AVLTreeMap,536.8
+Sorted Ascending,100,Search (hit),TreeMap,2.14
+Sorted Ascending,200,Search (hit),TreeMap,4.16
+Sorted Ascending,300,Search (hit),TreeMap,8.72
+Sorted Ascending,400,Search (hit),TreeMap,10.92
+Sorted Ascending,500,Search (hit),TreeMap,14.08
+Sorted Ascending,600,Search (hit),TreeMap,24.82
+Sorted Ascending,700,Search (hit),TreeMap,21.74
+Sorted Ascending,800,Search (hit),TreeMap,43.72
+Sorted Ascending,900,Search (hit),TreeMap,33.26
+Sorted Ascending,1000,Search (hit),TreeMap,35.42
+Sorted Ascending,1500,Search (hit),TreeMap,60.94
+Sorted Ascending,2000,Search (hit),TreeMap,83.34
+Sorted Ascending,2500,Search (hit),TreeMap,105.58
+Sorted Ascending,3000,Search (hit),TreeMap,134.4
+Sorted Ascending,3500,Search (hit),TreeMap,153.08
+Sorted Ascending,4000,Search (hit),TreeMap,405.12
+Sorted Ascending,4500,Search (hit),TreeMap,191.56
+Sorted Ascending,5000,Search (hit),TreeMap,207.14
+Sorted Ascending,5500,Search (hit),TreeMap,249.56
+Sorted Ascending,6000,Search (hit),TreeMap,263.64
+Sorted Ascending,6500,Search (hit),TreeMap,289.44
+Sorted Ascending,7000,Search (hit),TreeMap,311.12
+Sorted Ascending,7500,Search (hit),TreeMap,309.26
+Sorted Ascending,8000,Search (hit),TreeMap,331.66
+Sorted Ascending,8500,Search (hit),TreeMap,416.76
+Sorted Ascending,9000,Search (hit),TreeMap,408.86
+Sorted Ascending,9500,Search (hit),TreeMap,434.44
+Sorted Ascending,10000,Search (hit),TreeMap,539.86
+Sorted Descending,100,Search (hit),Treap,11.84
+Sorted Descending,200,Search (hit),Treap,6.3
+Sorted Descending,300,Search (hit),Treap,15.9
+Sorted Descending,400,Search (hit),Treap,12.68
+Sorted Descending,500,Search (hit),Treap,18.08
+Sorted Descending,600,Search (hit),Treap,22.02
+Sorted Descending,700,Search (hit),Treap,29.1
+Sorted Descending,800,Search (hit),Treap,34.86
+Sorted Descending,900,Search (hit),Treap,40.9
+Sorted Descending,1000,Search (hit),Treap,42.34
+Sorted Descending,1500,Search (hit),Treap,69.94
+Sorted Descending,2000,Search (hit),Treap,102.42
+Sorted Descending,2500,Search (hit),Treap,127.6
+Sorted Descending,3000,Search (hit),Treap,186.74
+Sorted Descending,3500,Search (hit),Treap,229.68
+Sorted Descending,4000,Search (hit),Treap,220.58
+Sorted Descending,4500,Search (hit),Treap,262.18
+Sorted Descending,5000,Search (hit),Treap,309.22
+Sorted Descending,5500,Search (hit),Treap,350.62
+Sorted Descending,6000,Search (hit),Treap,398.98
+Sorted Descending,6500,Search (hit),Treap,399.0
+Sorted Descending,7000,Search (hit),Treap,875.08
+Sorted Descending,7500,Search (hit),Treap,466.84
+Sorted Descending,8000,Search (hit),Treap,475.84
+Sorted Descending,8500,Search (hit),Treap,594.48
+Sorted Descending,9000,Search (hit),Treap,586.28
+Sorted Descending,9500,Search (hit),Treap,616.68
+Sorted Descending,10000,Search (hit),Treap,698.44
+Sorted Descending,100,Search (hit),AVLTreeMap,2.44
+Sorted Descending,200,Search (hit),AVLTreeMap,5.16
+Sorted Descending,300,Search (hit),AVLTreeMap,8.42
+Sorted Descending,400,Search (hit),AVLTreeMap,11.08
+Sorted Descending,500,Search (hit),AVLTreeMap,14.52
+Sorted Descending,600,Search (hit),AVLTreeMap,17.6
+Sorted Descending,700,Search (hit),AVLTreeMap,24.48
+Sorted Descending,800,Search (hit),AVLTreeMap,25.74
+Sorted Descending,900,Search (hit),AVLTreeMap,30.92
+Sorted Descending,1000,Search (hit),AVLTreeMap,36.72
+Sorted Descending,1500,Search (hit),AVLTreeMap,64.14
+Sorted Descending,2000,Search (hit),AVLTreeMap,86.86
+Sorted Descending,2500,Search (hit),AVLTreeMap,130.1
+Sorted Descending,3000,Search (hit),AVLTreeMap,177.28
+Sorted Descending,3500,Search (hit),AVLTreeMap,187.14
+Sorted Descending,4000,Search (hit),AVLTreeMap,196.42
+Sorted Descending,4500,Search (hit),AVLTreeMap,225.22
+Sorted Descending,5000,Search (hit),AVLTreeMap,251.42
+Sorted Descending,5500,Search (hit),AVLTreeMap,305.58
+Sorted Descending,6000,Search (hit),AVLTreeMap,314.88
+Sorted Descending,6500,Search (hit),AVLTreeMap,331.3
+Sorted Descending,7000,Search (hit),AVLTreeMap,402.46
+Sorted Descending,7500,Search (hit),AVLTreeMap,392.38
+Sorted Descending,8000,Search (hit),AVLTreeMap,444.54
+Sorted Descending,8500,Search (hit),AVLTreeMap,492.9
+Sorted Descending,9000,Search (hit),AVLTreeMap,479.48
+Sorted Descending,9500,Search (hit),AVLTreeMap,509.12
+Sorted Descending,10000,Search (hit),AVLTreeMap,568.32
+Sorted Descending,100,Search (hit),TreeMap,1.88
+Sorted Descending,200,Search (hit),TreeMap,4.1
+Sorted Descending,300,Search (hit),TreeMap,7.26
+Sorted Descending,400,Search (hit),TreeMap,9.7
+Sorted Descending,500,Search (hit),TreeMap,14.34
+Sorted Descending,600,Search (hit),TreeMap,18.52
+Sorted Descending,700,Search (hit),TreeMap,23.68
+Sorted Descending,800,Search (hit),TreeMap,28.08
+Sorted Descending,900,Search (hit),TreeMap,33.36
+Sorted Descending,1000,Search (hit),TreeMap,37.92
+Sorted Descending,1500,Search (hit),TreeMap,59.2
+Sorted Descending,2000,Search (hit),TreeMap,89.96
+Sorted Descending,2500,Search (hit),TreeMap,102.32
+Sorted Descending,3000,Search (hit),TreeMap,130.06
+Sorted Descending,3500,Search (hit),TreeMap,157.5
+Sorted Descending,4000,Search (hit),TreeMap,195.08
+Sorted Descending,4500,Search (hit),TreeMap,206.32
+Sorted Descending,5000,Search (hit),TreeMap,231.92
+Sorted Descending,5500,Search (hit),TreeMap,251.38
+Sorted Descending,6000,Search (hit),TreeMap,273.64
+Sorted Descending,6500,Search (hit),TreeMap,319.54
+Sorted Descending,7000,Search (hit),TreeMap,397.04
+Sorted Descending,7500,Search (hit),TreeMap,350.86
+Sorted Descending,8000,Search (hit),TreeMap,376.12
+Sorted Descending,8500,Search (hit),TreeMap,407.62
+Sorted Descending,9000,Search (hit),TreeMap,425.08
+Sorted Descending,9500,Search (hit),TreeMap,459.92
+Sorted Descending,10000,Search (hit),TreeMap,471.68
+Partially Sorted,100,Search (hit),Treap,2.72
+Partially Sorted,200,Search (hit),Treap,6.56
+Partially Sorted,300,Search (hit),Treap,10.68
+Partially Sorted,400,Search (hit),Treap,18.14
+Partially Sorted,500,Search (hit),Treap,19.96
+Partially Sorted,600,Search (hit),Treap,28.92
+Partially Sorted,700,Search (hit),Treap,28.82
+Partially Sorted,800,Search (hit),Treap,40.96
+Partially Sorted,900,Search (hit),Treap,44.68
+Partially Sorted,1000,Search (hit),Treap,52.4
+Partially Sorted,1500,Search (hit),Treap,106.1
+Partially Sorted,2000,Search (hit),Treap,139.7
+Partially Sorted,2500,Search (hit),Treap,182.3
+Partially Sorted,3000,Search (hit),Treap,221.96
+Partially Sorted,3500,Search (hit),Treap,281.72
+Partially Sorted,4000,Search (hit),Treap,337.1
+Partially Sorted,4500,Search (hit),Treap,551.24
+Partially Sorted,5000,Search (hit),Treap,438.4
+Partially Sorted,5500,Search (hit),Treap,459.18
+Partially Sorted,6000,Search (hit),Treap,540.06
+Partially Sorted,6500,Search (hit),Treap,618.46
+Partially Sorted,7000,Search (hit),Treap,621.78
+Partially Sorted,7500,Search (hit),Treap,614.04
+Partially Sorted,8000,Search (hit),Treap,697.2
+Partially Sorted,8500,Search (hit),Treap,894.68
+Partially Sorted,9000,Search (hit),Treap,762.82
+Partially Sorted,9500,Search (hit),Treap,904.88
+Partially Sorted,10000,Search (hit),Treap,1157.38
+Partially Sorted,100,Search (hit),AVLTreeMap,2.56
+Partially Sorted,200,Search (hit),AVLTreeMap,5.4
+Partially Sorted,300,Search (hit),AVLTreeMap,9.22
+Partially Sorted,400,Search (hit),AVLTreeMap,13.46
+Partially Sorted,500,Search (hit),AVLTreeMap,18.14
+Partially Sorted,600,Search (hit),AVLTreeMap,20.96
+Partially Sorted,700,Search (hit),AVLTreeMap,27.52
+Partially Sorted,800,Search (hit),AVLTreeMap,36.06
+Partially Sorted,900,Search (hit),AVLTreeMap,40.02
+Partially Sorted,1000,Search (hit),AVLTreeMap,47.96
+Partially Sorted,1500,Search (hit),AVLTreeMap,81.64
+Partially Sorted,2000,Search (hit),AVLTreeMap,118.06
+Partially Sorted,2500,Search (hit),AVLTreeMap,159.18
+Partially Sorted,3000,Search (hit),AVLTreeMap,231.76
+Partially Sorted,3500,Search (hit),AVLTreeMap,239.98
+Partially Sorted,4000,Search (hit),AVLTreeMap,279.6
+Partially Sorted,4500,Search (hit),AVLTreeMap,318.14
+Partially Sorted,5000,Search (hit),AVLTreeMap,353.96
+Partially Sorted,5500,Search (hit),AVLTreeMap,373.98
+Partially Sorted,6000,Search (hit),AVLTreeMap,437.02
+Partially Sorted,6500,Search (hit),AVLTreeMap,552.48
+Partially Sorted,7000,Search (hit),AVLTreeMap,543.7
+Partially Sorted,7500,Search (hit),AVLTreeMap,532.54
+Partially Sorted,8000,Search (hit),AVLTreeMap,760.46
+Partially Sorted,8500,Search (hit),AVLTreeMap,693.32
+Partially Sorted,9000,Search (hit),AVLTreeMap,675.26
+Partially Sorted,9500,Search (hit),AVLTreeMap,732.38
+Partially Sorted,10000,Search (hit),AVLTreeMap,782.16
+Partially Sorted,100,Search (hit),TreeMap,1.84
+Partially Sorted,200,Search (hit),TreeMap,4.16
+Partially Sorted,300,Search (hit),TreeMap,6.5
+Partially Sorted,400,Search (hit),TreeMap,10.82
+Partially Sorted,500,Search (hit),TreeMap,14.42
+Partially Sorted,600,Search (hit),TreeMap,20.38
+Partially Sorted,700,Search (hit),TreeMap,24.68
+Partially Sorted,800,Search (hit),TreeMap,28.48
+Partially Sorted,900,Search (hit),TreeMap,32.98
+Partially Sorted,1000,Search (hit),TreeMap,41.18
+Partially Sorted,1500,Search (hit),TreeMap,94.84
+Partially Sorted,2000,Search (hit),TreeMap,97.28
+Partially Sorted,2500,Search (hit),TreeMap,127.76
+Partially Sorted,3000,Search (hit),TreeMap,170.12
+Partially Sorted,3500,Search (hit),TreeMap,218.86
+Partially Sorted,4000,Search (hit),TreeMap,228.2
+Partially Sorted,4500,Search (hit),TreeMap,260.9
+Partially Sorted,5000,Search (hit),TreeMap,298.08
+Partially Sorted,5500,Search (hit),TreeMap,299.26
+Partially Sorted,6000,Search (hit),TreeMap,370.82
+Partially Sorted,6500,Search (hit),TreeMap,508.18
+Partially Sorted,7000,Search (hit),TreeMap,410.8
+Partially Sorted,7500,Search (hit),TreeMap,437.76
+Partially Sorted,8000,Search (hit),TreeMap,540.74
+Partially Sorted,8500,Search (hit),TreeMap,509.64
+Partially Sorted,9000,Search (hit),TreeMap,538.0
+Partially Sorted,9500,Search (hit),TreeMap,585.1
+Partially Sorted,10000,Search (hit),TreeMap,679.58
+Random,100,Search (miss),Treap,17.44
+Random,200,Search (miss),Treap,13.68
+Random,300,Search (miss),Treap,19.62
+Random,400,Search (miss),Treap,15.58
+Random,500,Search (miss),Treap,8.86
+Random,600,Search (miss),Treap,11.62
+Random,700,Search (miss),Treap,23.64
+Random,800,Search (miss),Treap,21.0
+Random,900,Search (miss),Treap,20.16
+Random,1000,Search (miss),Treap,36.24
+Random,1500,Search (miss),Treap,81.96
+Random,2000,Search (miss),Treap,52.82
+Random,2500,Search (miss),Treap,53.2
+Random,3000,Search (miss),Treap,58.78
+Random,3500,Search (miss),Treap,101.86
+Random,4000,Search (miss),Treap,103.84
+Random,4500,Search (miss),Treap,97.4
+Random,5000,Search (miss),Treap,51.84
+Random,5500,Search (miss),Treap,111.62
+Random,6000,Search (miss),Treap,164.54
+Random,6500,Search (miss),Treap,122.38
+Random,7000,Search (miss),Treap,126.38
+Random,7500,Search (miss),Treap,148.96
+Random,8000,Search (miss),Treap,225.84
+Random,8500,Search (miss),Treap,263.66
+Random,9000,Search (miss),Treap,113.3
+Random,9500,Search (miss),Treap,197.0
+Random,10000,Search (miss),Treap,130.94
+Random,100,Search (miss),AVLTreeMap,8.08
+Random,200,Search (miss),AVLTreeMap,13.2
+Random,300,Search (miss),AVLTreeMap,19.92
+Random,400,Search (miss),AVLTreeMap,12.94
+Random,500,Search (miss),AVLTreeMap,12.64
+Random,600,Search (miss),AVLTreeMap,15.2
+Random,700,Search (miss),AVLTreeMap,25.62
+Random,800,Search (miss),AVLTreeMap,22.06
+Random,900,Search (miss),AVLTreeMap,27.26
+Random,1000,Search (miss),AVLTreeMap,29.88
+Random,1500,Search (miss),AVLTreeMap,46.66
+Random,2000,Search (miss),AVLTreeMap,65.44
+Random,2500,Search (miss),AVLTreeMap,92.18
+Random,3000,Search (miss),AVLTreeMap,128.62
+Random,3500,Search (miss),AVLTreeMap,110.14
+Random,4000,Search (miss),AVLTreeMap,136.74
+Random,4500,Search (miss),AVLTreeMap,139.24
+Random,5000,Search (miss),AVLTreeMap,140.3
+Random,5500,Search (miss),AVLTreeMap,153.22
+Random,6000,Search (miss),AVLTreeMap,187.56
+Random,6500,Search (miss),AVLTreeMap,191.32
+Random,7000,Search (miss),AVLTreeMap,214.48
+Random,7500,Search (miss),AVLTreeMap,238.26
+Random,8000,Search (miss),AVLTreeMap,226.14
+Random,8500,Search (miss),AVLTreeMap,226.96
+Random,9000,Search (miss),AVLTreeMap,237.18
+Random,9500,Search (miss),AVLTreeMap,304.16
+Random,10000,Search (miss),AVLTreeMap,303.9
+Random,100,Search (miss),TreeMap,9.72
+Random,200,Search (miss),TreeMap,54.12
+Random,300,Search (miss),TreeMap,101.04
+Random,400,Search (miss),TreeMap,19.84
+Random,500,Search (miss),TreeMap,9.5
+Random,600,Search (miss),TreeMap,11.5
+Random,700,Search (miss),TreeMap,13.94
+Random,800,Search (miss),TreeMap,16.56
+Random,900,Search (miss),TreeMap,15.64
+Random,1000,Search (miss),TreeMap,21.02
+Random,1500,Search (miss),TreeMap,26.42
+Random,2000,Search (miss),TreeMap,43.5
+Random,2500,Search (miss),TreeMap,58.9
+Random,3000,Search (miss),TreeMap,65.94
+Random,3500,Search (miss),TreeMap,46.98
+Random,4000,Search (miss),TreeMap,60.38
+Random,4500,Search (miss),TreeMap,53.98
+Random,5000,Search (miss),TreeMap,55.36
+Random,5500,Search (miss),TreeMap,66.36
+Random,6000,Search (miss),TreeMap,72.64
+Random,6500,Search (miss),TreeMap,94.28
+Random,7000,Search (miss),TreeMap,86.84
+Random,7500,Search (miss),TreeMap,118.62
+Random,8000,Search (miss),TreeMap,116.06
+Random,8500,Search (miss),TreeMap,99.46
+Random,9000,Search (miss),TreeMap,123.36
+Random,9500,Search (miss),TreeMap,112.38
+Random,10000,Search (miss),TreeMap,187.54
+Sorted Ascending,100,Search (miss),Treap,1.24
+Sorted Ascending,200,Search (miss),Treap,2.5
+Sorted Ascending,300,Search (miss),Treap,4.16
+Sorted Ascending,400,Search (miss),Treap,3.64
+Sorted Ascending,500,Search (miss),Treap,11.36
+Sorted Ascending,600,Search (miss),Treap,14.8
+Sorted Ascending,700,Search (miss),Treap,7.44
+Sorted Ascending,800,Search (miss),Treap,23.56
+Sorted Ascending,900,Search (miss),Treap,22.0
+Sorted Ascending,1000,Search (miss),Treap,12.24
+Sorted Ascending,1500,Search (miss),Treap,25.44
+Sorted Ascending,2000,Search (miss),Treap,37.78
+Sorted Ascending,2500,Search (miss),Treap,49.84
+Sorted Ascending,3000,Search (miss),Treap,61.92
+Sorted Ascending,3500,Search (miss),Treap,38.1
+Sorted Ascending,4000,Search (miss),Treap,118.48
+Sorted Ascending,4500,Search (miss),Treap,64.5
+Sorted Ascending,5000,Search (miss),Treap,144.32
+Sorted Ascending,5500,Search (miss),Treap,178.16
+Sorted Ascending,6000,Search (miss),Treap,180.6
+Sorted Ascending,6500,Search (miss),Treap,179.18
+Sorted Ascending,7000,Search (miss),Treap,121.6
+Sorted Ascending,7500,Search (miss),Treap,102.64
+Sorted Ascending,8000,Search (miss),Treap,227.56
+Sorted Ascending,8500,Search (miss),Treap,146.9
+Sorted Ascending,9000,Search (miss),Treap,166.38
+Sorted Ascending,9500,Search (miss),Treap,324.4
+Sorted Ascending,10000,Search (miss),Treap,217.76
+Sorted Ascending,100,Search (miss),AVLTreeMap,1.68
+Sorted Ascending,200,Search (miss),AVLTreeMap,3.44
+Sorted Ascending,300,Search (miss),AVLTreeMap,5.64
+Sorted Ascending,400,Search (miss),AVLTreeMap,8.42
+Sorted Ascending,500,Search (miss),AVLTreeMap,9.86
+Sorted Ascending,600,Search (miss),AVLTreeMap,12.46
+Sorted Ascending,700,Search (miss),AVLTreeMap,14.46
+Sorted Ascending,800,Search (miss),AVLTreeMap,18.78
+Sorted Ascending,900,Search (miss),AVLTreeMap,22.24
+Sorted Ascending,1000,Search (miss),AVLTreeMap,22.32
+Sorted Ascending,1500,Search (miss),AVLTreeMap,33.5
+Sorted Ascending,2000,Search (miss),AVLTreeMap,58.88
+Sorted Ascending,2500,Search (miss),AVLTreeMap,60.62
+Sorted Ascending,3000,Search (miss),AVLTreeMap,88.66
+Sorted Ascending,3500,Search (miss),AVLTreeMap,92.74
+Sorted Ascending,4000,Search (miss),AVLTreeMap,110.84
+Sorted Ascending,4500,Search (miss),AVLTreeMap,126.88
+Sorted Ascending,5000,Search (miss),AVLTreeMap,134.74
+Sorted Ascending,5500,Search (miss),AVLTreeMap,154.72
+Sorted Ascending,6000,Search (miss),AVLTreeMap,157.62
+Sorted Ascending,6500,Search (miss),AVLTreeMap,179.06
+Sorted Ascending,7000,Search (miss),AVLTreeMap,216.64
+Sorted Ascending,7500,Search (miss),AVLTreeMap,209.56
+Sorted Ascending,8000,Search (miss),AVLTreeMap,256.96
+Sorted Ascending,8500,Search (miss),AVLTreeMap,221.64
+Sorted Ascending,9000,Search (miss),AVLTreeMap,249.06
+Sorted Ascending,9500,Search (miss),AVLTreeMap,271.58
+Sorted Ascending,10000,Search (miss),AVLTreeMap,300.56
+Sorted Ascending,100,Search (miss),TreeMap,0.52
+Sorted Ascending,200,Search (miss),TreeMap,1.22
+Sorted Ascending,300,Search (miss),TreeMap,3.84
+Sorted Ascending,400,Search (miss),TreeMap,2.98
+Sorted Ascending,500,Search (miss),TreeMap,3.52
+Sorted Ascending,600,Search (miss),TreeMap,4.64
+Sorted Ascending,700,Search (miss),TreeMap,5.9
+Sorted Ascending,800,Search (miss),TreeMap,6.92
+Sorted Ascending,900,Search (miss),TreeMap,7.74
+Sorted Ascending,1000,Search (miss),TreeMap,8.18
+Sorted Ascending,1500,Search (miss),TreeMap,18.76
+Sorted Ascending,2000,Search (miss),TreeMap,20.46
+Sorted Ascending,2500,Search (miss),TreeMap,23.46
+Sorted Ascending,3000,Search (miss),TreeMap,34.02
+Sorted Ascending,3500,Search (miss),TreeMap,36.62
+Sorted Ascending,4000,Search (miss),TreeMap,41.18
+Sorted Ascending,4500,Search (miss),TreeMap,44.98
+Sorted Ascending,5000,Search (miss),TreeMap,47.52
+Sorted Ascending,5500,Search (miss),TreeMap,65.96
+Sorted Ascending,6000,Search (miss),TreeMap,68.68
+Sorted Ascending,6500,Search (miss),TreeMap,75.46
+Sorted Ascending,7000,Search (miss),TreeMap,77.36
+Sorted Ascending,7500,Search (miss),TreeMap,79.92
+Sorted Ascending,8000,Search (miss),TreeMap,85.86
+Sorted Ascending,8500,Search (miss),TreeMap,95.4
+Sorted Ascending,9000,Search (miss),TreeMap,99.92
+Sorted Ascending,9500,Search (miss),TreeMap,112.42
+Sorted Ascending,10000,Search (miss),TreeMap,120.68
+Sorted Descending,100,Search (miss),Treap,1.78
+Sorted Descending,200,Search (miss),Treap,2.94
+Sorted Descending,300,Search (miss),Treap,5.36
+Sorted Descending,400,Search (miss),Treap,5.46
+Sorted Descending,500,Search (miss),Treap,13.34
+Sorted Descending,600,Search (miss),Treap,6.38
+Sorted Descending,700,Search (miss),Treap,14.78
+Sorted Descending,800,Search (miss),Treap,16.74
+Sorted Descending,900,Search (miss),Treap,16.98
+Sorted Descending,1000,Search (miss),Treap,16.86
+Sorted Descending,1500,Search (miss),Treap,28.14
+Sorted Descending,2000,Search (miss),Treap,63.62
+Sorted Descending,2500,Search (miss),Treap,45.1
+Sorted Descending,3000,Search (miss),Treap,89.44
+Sorted Descending,3500,Search (miss),Treap,48.78
+Sorted Descending,4000,Search (miss),Treap,83.2
+Sorted Descending,4500,Search (miss),Treap,89.7
+Sorted Descending,5000,Search (miss),Treap,85.24
+Sorted Descending,5500,Search (miss),Treap,115.42
+Sorted Descending,6000,Search (miss),Treap,113.58
+Sorted Descending,6500,Search (miss),Treap,123.62
+Sorted Descending,7000,Search (miss),Treap,145.34
+Sorted Descending,7500,Search (miss),Treap,173.72
+Sorted Descending,8000,Search (miss),Treap,164.92
+Sorted Descending,8500,Search (miss),Treap,148.78
+Sorted Descending,9000,Search (miss),Treap,121.6
+Sorted Descending,9500,Search (miss),Treap,217.78
+Sorted Descending,10000,Search (miss),Treap,193.86
+Sorted Descending,100,Search (miss),AVLTreeMap,1.68
+Sorted Descending,200,Search (miss),AVLTreeMap,3.82
+Sorted Descending,300,Search (miss),AVLTreeMap,6.28
+Sorted Descending,400,Search (miss),AVLTreeMap,7.86
+Sorted Descending,500,Search (miss),AVLTreeMap,9.94
+Sorted Descending,600,Search (miss),AVLTreeMap,12.82
+Sorted Descending,700,Search (miss),AVLTreeMap,17.34
+Sorted Descending,800,Search (miss),AVLTreeMap,18.0
+Sorted Descending,900,Search (miss),AVLTreeMap,20.78
+Sorted Descending,1000,Search (miss),AVLTreeMap,22.96
+Sorted Descending,1500,Search (miss),AVLTreeMap,44.02
+Sorted Descending,2000,Search (miss),AVLTreeMap,49.6
+Sorted Descending,2500,Search (miss),AVLTreeMap,68.46
+Sorted Descending,3000,Search (miss),AVLTreeMap,86.36
+Sorted Descending,3500,Search (miss),AVLTreeMap,96.08
+Sorted Descending,4000,Search (miss),AVLTreeMap,110.78
+Sorted Descending,4500,Search (miss),AVLTreeMap,131.52
+Sorted Descending,5000,Search (miss),AVLTreeMap,142.04
+Sorted Descending,5500,Search (miss),AVLTreeMap,174.08
+Sorted Descending,6000,Search (miss),AVLTreeMap,180.72
+Sorted Descending,6500,Search (miss),AVLTreeMap,198.18
+Sorted Descending,7000,Search (miss),AVLTreeMap,280.74
+Sorted Descending,7500,Search (miss),AVLTreeMap,263.9
+Sorted Descending,8000,Search (miss),AVLTreeMap,245.28
+Sorted Descending,8500,Search (miss),AVLTreeMap,269.56
+Sorted Descending,9000,Search (miss),AVLTreeMap,277.56
+Sorted Descending,9500,Search (miss),AVLTreeMap,326.12
+Sorted Descending,10000,Search (miss),AVLTreeMap,303.88
+Sorted Descending,100,Search (miss),TreeMap,1.1
+Sorted Descending,200,Search (miss),TreeMap,2.5
+Sorted Descending,300,Search (miss),TreeMap,4.12
+Sorted Descending,400,Search (miss),TreeMap,7.14
+Sorted Descending,500,Search (miss),TreeMap,9.28
+Sorted Descending,600,Search (miss),TreeMap,15.16
+Sorted Descending,700,Search (miss),TreeMap,17.58
+Sorted Descending,800,Search (miss),TreeMap,27.82
+Sorted Descending,900,Search (miss),TreeMap,32.12
+Sorted Descending,1000,Search (miss),TreeMap,35.66
+Sorted Descending,1500,Search (miss),TreeMap,55.76
+Sorted Descending,2000,Search (miss),TreeMap,80.72
+Sorted Descending,2500,Search (miss),TreeMap,100.62
+Sorted Descending,3000,Search (miss),TreeMap,128.5
+Sorted Descending,3500,Search (miss),TreeMap,147.32
+Sorted Descending,4000,Search (miss),TreeMap,168.3
+Sorted Descending,4500,Search (miss),TreeMap,202.02
+Sorted Descending,5000,Search (miss),TreeMap,218.32
+Sorted Descending,5500,Search (miss),TreeMap,266.16
+Sorted Descending,6000,Search (miss),TreeMap,295.82
+Sorted Descending,6500,Search (miss),TreeMap,359.16
+Sorted Descending,7000,Search (miss),TreeMap,353.2
+Sorted Descending,7500,Search (miss),TreeMap,363.74
+Sorted Descending,8000,Search (miss),TreeMap,375.88
+Sorted Descending,8500,Search (miss),TreeMap,412.64
+Sorted Descending,9000,Search (miss),TreeMap,448.98
+Sorted Descending,9500,Search (miss),TreeMap,445.06
+Sorted Descending,10000,Search (miss),TreeMap,466.32
+Partially Sorted,100,Search (miss),Treap,1.5
+Partially Sorted,200,Search (miss),Treap,1.84
+Partially Sorted,300,Search (miss),Treap,5.12
+Partially Sorted,400,Search (miss),Treap,7.28
+Partially Sorted,500,Search (miss),Treap,4.52
+Partially Sorted,600,Search (miss),Treap,4.2
+Partially Sorted,700,Search (miss),Treap,10.86
+Partially Sorted,800,Search (miss),Treap,18.12
+Partially Sorted,900,Search (miss),Treap,15.26
+Partially Sorted,1000,Search (miss),Treap,26.46
+Partially Sorted,1500,Search (miss),Treap,19.86
+Partially Sorted,2000,Search (miss),Treap,26.94
+Partially Sorted,2500,Search (miss),Treap,36.38
+Partially Sorted,3000,Search (miss),Treap,51.36
+Partially Sorted,3500,Search (miss),Treap,78.92
+Partially Sorted,4000,Search (miss),Treap,85.2
+Partially Sorted,4500,Search (miss),Treap,103.74
+Partially Sorted,5000,Search (miss),Treap,94.04
+Partially Sorted,5500,Search (miss),Treap,58.2
+Partially Sorted,6000,Search (miss),Treap,80.2
+Partially Sorted,6500,Search (miss),Treap,137.54
+Partially Sorted,7000,Search (miss),Treap,93.44
+Partially Sorted,7500,Search (miss),Treap,117.46
+Partially Sorted,8000,Search (miss),Treap,204.52
+Partially Sorted,8500,Search (miss),Treap,150.12
+Partially Sorted,9000,Search (miss),Treap,155.86
+Partially Sorted,9500,Search (miss),Treap,121.16
+Partially Sorted,10000,Search (miss),Treap,305.9
+Partially Sorted,100,Search (miss),AVLTreeMap,1.74
+Partially Sorted,200,Search (miss),AVLTreeMap,3.4
+Partially Sorted,300,Search (miss),AVLTreeMap,5.92
+Partially Sorted,400,Search (miss),AVLTreeMap,8.9
+Partially Sorted,500,Search (miss),AVLTreeMap,10.5
+Partially Sorted,600,Search (miss),AVLTreeMap,11.22
+Partially Sorted,700,Search (miss),AVLTreeMap,14.82
+Partially Sorted,800,Search (miss),AVLTreeMap,19.82
+Partially Sorted,900,Search (miss),AVLTreeMap,20.46
+Partially Sorted,1000,Search (miss),AVLTreeMap,24.86
+Partially Sorted,1500,Search (miss),AVLTreeMap,40.52
+Partially Sorted,2000,Search (miss),AVLTreeMap,54.5
+Partially Sorted,2500,Search (miss),AVLTreeMap,73.34
+Partially Sorted,3000,Search (miss),AVLTreeMap,94.46
+Partially Sorted,3500,Search (miss),AVLTreeMap,99.94
+Partially Sorted,4000,Search (miss),AVLTreeMap,101.72
+Partially Sorted,4500,Search (miss),AVLTreeMap,114.04
+Partially Sorted,5000,Search (miss),AVLTreeMap,129.8
+Partially Sorted,5500,Search (miss),AVLTreeMap,154.34
+Partially Sorted,6000,Search (miss),AVLTreeMap,160.76
+Partially Sorted,6500,Search (miss),AVLTreeMap,196.54
+Partially Sorted,7000,Search (miss),AVLTreeMap,221.76
+Partially Sorted,7500,Search (miss),AVLTreeMap,207.84
+Partially Sorted,8000,Search (miss),AVLTreeMap,260.64
+Partially Sorted,8500,Search (miss),AVLTreeMap,278.74
+Partially Sorted,9000,Search (miss),AVLTreeMap,235.16
+Partially Sorted,9500,Search (miss),AVLTreeMap,301.42
+Partially Sorted,10000,Search (miss),AVLTreeMap,283.5
+Partially Sorted,100,Search (miss),TreeMap,0.6
+Partially Sorted,200,Search (miss),TreeMap,1.32
+Partially Sorted,300,Search (miss),TreeMap,1.82
+Partially Sorted,400,Search (miss),TreeMap,2.56
+Partially Sorted,500,Search (miss),TreeMap,3.7
+Partially Sorted,600,Search (miss),TreeMap,4.62
+Partially Sorted,700,Search (miss),TreeMap,5.28
+Partially Sorted,800,Search (miss),TreeMap,6.32
+Partially Sorted,900,Search (miss),TreeMap,6.7
+Partially Sorted,1000,Search (miss),TreeMap,7.42
+Partially Sorted,1500,Search (miss),TreeMap,10.76
+Partially Sorted,2000,Search (miss),TreeMap,16.26
+Partially Sorted,2500,Search (miss),TreeMap,53.76
+Partially Sorted,3000,Search (miss),TreeMap,28.16
+Partially Sorted,3500,Search (miss),TreeMap,36.66
+Partially Sorted,4000,Search (miss),TreeMap,38.56
+Partially Sorted,4500,Search (miss),TreeMap,44.32
+Partially Sorted,5000,Search (miss),TreeMap,53.68
+Partially Sorted,5500,Search (miss),TreeMap,59.0
+Partially Sorted,6000,Search (miss),TreeMap,76.8
+Partially Sorted,6500,Search (miss),TreeMap,65.04
+Partially Sorted,7000,Search (miss),TreeMap,79.58
+Partially Sorted,7500,Search (miss),TreeMap,76.08
+Partially Sorted,8000,Search (miss),TreeMap,87.72
+Partially Sorted,8500,Search (miss),TreeMap,102.8
+Partially Sorted,9000,Search (miss),TreeMap,90.36
+Partially Sorted,9500,Search (miss),TreeMap,111.5
+Partially Sorted,10000,Search (miss),TreeMap,105.66
+Random,100,Deletion,Treap,27.98
+Random,200,Deletion,Treap,51.34
+Random,300,Deletion,Treap,82.48
+Random,400,Deletion,Treap,47.12
+Random,500,Deletion,Treap,51.74
+Random,600,Deletion,Treap,63.02
+Random,700,Deletion,Treap,78.68
+Random,800,Deletion,Treap,89.42
+Random,900,Deletion,Treap,121.9
+Random,1000,Deletion,Treap,114.5
+Random,1500,Deletion,Treap,245.72
+Random,2000,Deletion,Treap,296.78
+Random,2500,Deletion,Treap,349.34
+Random,3000,Deletion,Treap,441.58
+Random,3500,Deletion,Treap,613.44
+Random,4000,Deletion,Treap,614.56
+Random,4500,Deletion,Treap,724.48
+Random,5000,Deletion,Treap,777.52
+Random,5500,Deletion,Treap,868.48
+Random,6000,Deletion,Treap,919.2
+Random,6500,Deletion,Treap,1002.08
+Random,7000,Deletion,Treap,1071.58
+Random,7500,Deletion,Treap,1194.94
+Random,8000,Deletion,Treap,1270.28
+Random,8500,Deletion,Treap,1313.24
+Random,9000,Deletion,Treap,1530.82
+Random,9500,Deletion,Treap,1515.64
+Random,10000,Deletion,Treap,1529.34
+Random,100,Deletion,AVLTreeMap,42.56
+Random,200,Deletion,AVLTreeMap,59.56
+Random,300,Deletion,AVLTreeMap,88.24
+Random,400,Deletion,AVLTreeMap,87.7
+Random,500,Deletion,AVLTreeMap,104.2
+Random,600,Deletion,AVLTreeMap,79.18
+Random,700,Deletion,AVLTreeMap,79.74
+Random,800,Deletion,AVLTreeMap,83.04
+Random,900,Deletion,AVLTreeMap,111.16
+Random,1000,Deletion,AVLTreeMap,111.8
+Random,1500,Deletion,AVLTreeMap,185.98
+Random,2000,Deletion,AVLTreeMap,285.2
+Random,2500,Deletion,AVLTreeMap,347.78
+Random,3000,Deletion,AVLTreeMap,424.1
+Random,3500,Deletion,AVLTreeMap,534.04
+Random,4000,Deletion,AVLTreeMap,597.18
+Random,4500,Deletion,AVLTreeMap,734.76
+Random,5000,Deletion,AVLTreeMap,725.54
+Random,5500,Deletion,AVLTreeMap,807.5
+Random,6000,Deletion,AVLTreeMap,877.32
+Random,6500,Deletion,AVLTreeMap,997.62
+Random,7000,Deletion,AVLTreeMap,1041.12
+Random,7500,Deletion,AVLTreeMap,1096.04
+Random,8000,Deletion,AVLTreeMap,1201.16
+Random,8500,Deletion,AVLTreeMap,1340.12
+Random,9000,Deletion,AVLTreeMap,1336.96
+Random,9500,Deletion,AVLTreeMap,1431.04
+Random,10000,Deletion,AVLTreeMap,1482.0
+Random,100,Deletion,TreeMap,43.98
+Random,200,Deletion,TreeMap,75.54
+Random,300,Deletion,TreeMap,270.86
+Random,400,Deletion,TreeMap,136.1
+Random,500,Deletion,TreeMap,60.76
+Random,600,Deletion,TreeMap,67.62
+Random,700,Deletion,TreeMap,65.62
+Random,800,Deletion,TreeMap,163.94
+Random,900,Deletion,TreeMap,80.34
+Random,1000,Deletion,TreeMap,77.12
+Random,1500,Deletion,TreeMap,126.2
+Random,2000,Deletion,TreeMap,185.42
+Random,2500,Deletion,TreeMap,223.78
+Random,3000,Deletion,TreeMap,287.62
+Random,3500,Deletion,TreeMap,368.72
+Random,4000,Deletion,TreeMap,397.38
+Random,4500,Deletion,TreeMap,469.48
+Random,5000,Deletion,TreeMap,467.9
+Random,5500,Deletion,TreeMap,536.84
+Random,6000,Deletion,TreeMap,588.86
+Random,6500,Deletion,TreeMap,659.6
+Random,7000,Deletion,TreeMap,759.84
+Random,7500,Deletion,TreeMap,754.98
+Random,8000,Deletion,TreeMap,832.46
+Random,8500,Deletion,TreeMap,878.3
+Random,9000,Deletion,TreeMap,993.74
+Random,9500,Deletion,TreeMap,944.26
+Random,10000,Deletion,TreeMap,1089.08
+Sorted Ascending,100,Deletion,Treap,2.86
+Sorted Ascending,200,Deletion,Treap,5.9
+Sorted Ascending,300,Deletion,Treap,11.56
+Sorted Ascending,400,Deletion,Treap,14.0
+Sorted Ascending,500,Deletion,Treap,14.84
+Sorted Ascending,600,Deletion,Treap,19.4
+Sorted Ascending,700,Deletion,Treap,22.68
+Sorted Ascending,800,Deletion,Treap,25.44
+Sorted Ascending,900,Deletion,Treap,29.36
+Sorted Ascending,1000,Deletion,Treap,31.48
+Sorted Ascending,1500,Deletion,Treap,50.22
+Sorted Ascending,2000,Deletion,Treap,65.24
+Sorted Ascending,2500,Deletion,Treap,85.74
+Sorted Ascending,3000,Deletion,Treap,103.38
+Sorted Ascending,3500,Deletion,Treap,130.92
+Sorted Ascending,4000,Deletion,Treap,178.02
+Sorted Ascending,4500,Deletion,Treap,162.5
+Sorted Ascending,5000,Deletion,Treap,160.92
+Sorted Ascending,5500,Deletion,Treap,193.64
+Sorted Ascending,6000,Deletion,Treap,217.86
+Sorted Ascending,6500,Deletion,Treap,257.58
+Sorted Ascending,7000,Deletion,Treap,254.92
+Sorted Ascending,7500,Deletion,Treap,257.32
+Sorted Ascending,8000,Deletion,Treap,274.56
+Sorted Ascending,8500,Deletion,Treap,293.04
+Sorted Ascending,9000,Deletion,Treap,384.3
+Sorted Ascending,9500,Deletion,Treap,343.5
+Sorted Ascending,10000,Deletion,Treap,377.76
+Sorted Ascending,100,Deletion,AVLTreeMap,3.04
+Sorted Ascending,200,Deletion,AVLTreeMap,5.74
+Sorted Ascending,300,Deletion,AVLTreeMap,9.32
+Sorted Ascending,400,Deletion,AVLTreeMap,15.44
+Sorted Ascending,500,Deletion,AVLTreeMap,15.86
+Sorted Ascending,600,Deletion,AVLTreeMap,20.6
+Sorted Ascending,700,Deletion,AVLTreeMap,23.56
+Sorted Ascending,800,Deletion,AVLTreeMap,27.14
+Sorted Ascending,900,Deletion,AVLTreeMap,31.36
+Sorted Ascending,1000,Deletion,AVLTreeMap,34.02
+Sorted Ascending,1500,Deletion,AVLTreeMap,58.92
+Sorted Ascending,2000,Deletion,AVLTreeMap,73.72
+Sorted Ascending,2500,Deletion,AVLTreeMap,90.06
+Sorted Ascending,3000,Deletion,AVLTreeMap,126.38
+Sorted Ascending,3500,Deletion,AVLTreeMap,126.9
+Sorted Ascending,4000,Deletion,AVLTreeMap,156.46
+Sorted Ascending,4500,Deletion,AVLTreeMap,174.68
+Sorted Ascending,5000,Deletion,AVLTreeMap,169.54
+Sorted Ascending,5500,Deletion,AVLTreeMap,196.22
+Sorted Ascending,6000,Deletion,AVLTreeMap,220.04
+Sorted Ascending,6500,Deletion,AVLTreeMap,241.16
+Sorted Ascending,7000,Deletion,AVLTreeMap,255.66
+Sorted Ascending,7500,Deletion,AVLTreeMap,267.86
+Sorted Ascending,8000,Deletion,AVLTreeMap,303.14
+Sorted Ascending,8500,Deletion,AVLTreeMap,364.3
+Sorted Ascending,9000,Deletion,AVLTreeMap,420.54
+Sorted Ascending,9500,Deletion,AVLTreeMap,363.96
+Sorted Ascending,10000,Deletion,AVLTreeMap,377.62
+Sorted Ascending,100,Deletion,TreeMap,1.94
+Sorted Ascending,200,Deletion,TreeMap,3.84
+Sorted Ascending,300,Deletion,TreeMap,8.28
+Sorted Ascending,400,Deletion,TreeMap,8.3
+Sorted Ascending,500,Deletion,TreeMap,9.74
+Sorted Ascending,600,Deletion,TreeMap,13.32
+Sorted Ascending,700,Deletion,TreeMap,14.38
+Sorted Ascending,800,Deletion,TreeMap,17.24
+Sorted Ascending,900,Deletion,TreeMap,20.08
+Sorted Ascending,1000,Deletion,TreeMap,23.42
+Sorted Ascending,1500,Deletion,TreeMap,35.3
+Sorted Ascending,2000,Deletion,TreeMap,44.2
+Sorted Ascending,2500,Deletion,TreeMap,58.34
+Sorted Ascending,3000,Deletion,TreeMap,88.94
+Sorted Ascending,3500,Deletion,TreeMap,84.44
+Sorted Ascending,4000,Deletion,TreeMap,103.32
+Sorted Ascending,4500,Deletion,TreeMap,107.46
+Sorted Ascending,5000,Deletion,TreeMap,113.44
+Sorted Ascending,5500,Deletion,TreeMap,198.38
+Sorted Ascending,6000,Deletion,TreeMap,149.24
+Sorted Ascending,6500,Deletion,TreeMap,173.16
+Sorted Ascending,7000,Deletion,TreeMap,170.54
+Sorted Ascending,7500,Deletion,TreeMap,182.62
+Sorted Ascending,8000,Deletion,TreeMap,190.32
+Sorted Ascending,8500,Deletion,TreeMap,243.64
+Sorted Ascending,9000,Deletion,TreeMap,229.86
+Sorted Ascending,9500,Deletion,TreeMap,250.16
+Sorted Ascending,10000,Deletion,TreeMap,284.86
+Sorted Descending,100,Deletion,Treap,2.52
+Sorted Descending,200,Deletion,Treap,5.28
+Sorted Descending,300,Deletion,Treap,14.68
+Sorted Descending,400,Deletion,Treap,11.0
+Sorted Descending,500,Deletion,Treap,13.66
+Sorted Descending,600,Deletion,Treap,20.92
+Sorted Descending,700,Deletion,Treap,19.48
+Sorted Descending,800,Deletion,Treap,21.88
+Sorted Descending,900,Deletion,Treap,26.98
+Sorted Descending,1000,Deletion,Treap,28.82
+Sorted Descending,1500,Deletion,Treap,54.98
+Sorted Descending,2000,Deletion,Treap,66.9
+Sorted Descending,2500,Deletion,Treap,77.48
+Sorted Descending,3000,Deletion,Treap,89.5
+Sorted Descending,3500,Deletion,Treap,110.06
+Sorted Descending,4000,Deletion,Treap,116.98
+Sorted Descending,4500,Deletion,Treap,135.06
+Sorted Descending,5000,Deletion,Treap,155.24
+Sorted Descending,5500,Deletion,Treap,166.02
+Sorted Descending,6000,Deletion,Treap,206.44
+Sorted Descending,6500,Deletion,Treap,235.66
+Sorted Descending,7000,Deletion,Treap,236.96
+Sorted Descending,7500,Deletion,Treap,279.84
+Sorted Descending,8000,Deletion,Treap,251.56
+Sorted Descending,8500,Deletion,Treap,329.76
+Sorted Descending,9000,Deletion,Treap,283.94
+Sorted Descending,9500,Deletion,Treap,299.96
+Sorted Descending,10000,Deletion,Treap,319.88
+Sorted Descending,100,Deletion,AVLTreeMap,3.26
+Sorted Descending,200,Deletion,AVLTreeMap,6.48
+Sorted Descending,300,Deletion,AVLTreeMap,9.78
+Sorted Descending,400,Deletion,AVLTreeMap,12.52
+Sorted Descending,500,Deletion,AVLTreeMap,16.32
+Sorted Descending,600,Deletion,AVLTreeMap,18.48
+Sorted Descending,700,Deletion,AVLTreeMap,22.7
+Sorted Descending,800,Deletion,AVLTreeMap,26.34
+Sorted Descending,900,Deletion,AVLTreeMap,30.22
+Sorted Descending,1000,Deletion,AVLTreeMap,33.8
+Sorted Descending,1500,Deletion,AVLTreeMap,51.48
+Sorted Descending,2000,Deletion,AVLTreeMap,67.12
+Sorted Descending,2500,Deletion,AVLTreeMap,85.0
+Sorted Descending,3000,Deletion,AVLTreeMap,106.42
+Sorted Descending,3500,Deletion,AVLTreeMap,136.98
+Sorted Descending,4000,Deletion,AVLTreeMap,140.12
+Sorted Descending,4500,Deletion,AVLTreeMap,161.02
+Sorted Descending,5000,Deletion,AVLTreeMap,182.78
+Sorted Descending,5500,Deletion,AVLTreeMap,233.86
+Sorted Descending,6000,Deletion,AVLTreeMap,224.82
+Sorted Descending,6500,Deletion,AVLTreeMap,242.9
+Sorted Descending,7000,Deletion,AVLTreeMap,291.88
+Sorted Descending,7500,Deletion,AVLTreeMap,332.68
+Sorted Descending,8000,Deletion,AVLTreeMap,312.56
+Sorted Descending,8500,Deletion,AVLTreeMap,349.28
+Sorted Descending,9000,Deletion,AVLTreeMap,414.6
+Sorted Descending,9500,Deletion,AVLTreeMap,364.58
+Sorted Descending,10000,Deletion,AVLTreeMap,408.04
+Sorted Descending,100,Deletion,TreeMap,2.06
+Sorted Descending,200,Deletion,TreeMap,3.96
+Sorted Descending,300,Deletion,TreeMap,6.56
+Sorted Descending,400,Deletion,TreeMap,8.44
+Sorted Descending,500,Deletion,TreeMap,9.94
+Sorted Descending,600,Deletion,TreeMap,11.68
+Sorted Descending,700,Deletion,TreeMap,15.36
+Sorted Descending,800,Deletion,TreeMap,23.02
+Sorted Descending,900,Deletion,TreeMap,18.76
+Sorted Descending,1000,Deletion,TreeMap,24.9
+Sorted Descending,1500,Deletion,TreeMap,33.68
+Sorted Descending,2000,Deletion,TreeMap,45.68
+Sorted Descending,2500,Deletion,TreeMap,57.44
+Sorted Descending,3000,Deletion,TreeMap,70.42
+Sorted Descending,3500,Deletion,TreeMap,82.38
+Sorted Descending,4000,Deletion,TreeMap,108.14
+Sorted Descending,4500,Deletion,TreeMap,114.5
+Sorted Descending,5000,Deletion,TreeMap,114.9
+Sorted Descending,5500,Deletion,TreeMap,130.22
+Sorted Descending,6000,Deletion,TreeMap,146.74
+Sorted Descending,6500,Deletion,TreeMap,163.42
+Sorted Descending,7000,Deletion,TreeMap,175.14
+Sorted Descending,7500,Deletion,TreeMap,201.98
+Sorted Descending,8000,Deletion,TreeMap,220.26
+Sorted Descending,8500,Deletion,TreeMap,224.14
+Sorted Descending,9000,Deletion,TreeMap,235.44
+Sorted Descending,9500,Deletion,TreeMap,331.14
+Sorted Descending,10000,Deletion,TreeMap,256.0
+Partially Sorted,100,Deletion,Treap,7.14
+Partially Sorted,200,Deletion,Treap,14.16
+Partially Sorted,300,Deletion,Treap,22.18
+Partially Sorted,400,Deletion,Treap,31.6
+Partially Sorted,500,Deletion,Treap,41.14
+Partially Sorted,600,Deletion,Treap,54.2
+Partially Sorted,700,Deletion,Treap,57.22
+Partially Sorted,800,Deletion,Treap,73.94
+Partially Sorted,900,Deletion,Treap,81.6
+Partially Sorted,1000,Deletion,Treap,86.46
+Partially Sorted,1500,Deletion,Treap,147.76
+Partially Sorted,2000,Deletion,Treap,193.68
+Partially Sorted,2500,Deletion,Treap,236.1
+Partially Sorted,3000,Deletion,Treap,294.3
+Partially Sorted,3500,Deletion,Treap,349.2
+Partially Sorted,4000,Deletion,Treap,404.32
+Partially Sorted,4500,Deletion,Treap,469.78
+Partially Sorted,5000,Deletion,Treap,525.02
+Partially Sorted,5500,Deletion,Treap,574.48
+Partially Sorted,6000,Deletion,Treap,631.06
+Partially Sorted,6500,Deletion,Treap,746.08
+Partially Sorted,7000,Deletion,Treap,765.9
+Partially Sorted,7500,Deletion,Treap,738.72
+Partially Sorted,8000,Deletion,Treap,869.26
+Partially Sorted,8500,Deletion,Treap,1019.1
+Partially Sorted,9000,Deletion,Treap,957.54
+Partially Sorted,9500,Deletion,Treap,1043.24
+Partially Sorted,10000,Deletion,Treap,1181.62
+Partially Sorted,100,Deletion,AVLTreeMap,4.56
+Partially Sorted,200,Deletion,AVLTreeMap,10.44
+Partially Sorted,300,Deletion,AVLTreeMap,16.46
+Partially Sorted,400,Deletion,AVLTreeMap,25.84
+Partially Sorted,500,Deletion,AVLTreeMap,37.02
+Partially Sorted,600,Deletion,AVLTreeMap,46.8
+Partially Sorted,700,Deletion,AVLTreeMap,55.14
+Partially Sorted,800,Deletion,AVLTreeMap,67.98
+Partially Sorted,900,Deletion,AVLTreeMap,74.02
+Partially Sorted,1000,Deletion,AVLTreeMap,79.68
+Partially Sorted,1500,Deletion,AVLTreeMap,131.76
+Partially Sorted,2000,Deletion,AVLTreeMap,188.82
+Partially Sorted,2500,Deletion,AVLTreeMap,233.76
+Partially Sorted,3000,Deletion,AVLTreeMap,302.34
+Partially Sorted,3500,Deletion,AVLTreeMap,346.02
+Partially Sorted,4000,Deletion,AVLTreeMap,422.06
+Partially Sorted,4500,Deletion,AVLTreeMap,497.16
+Partially Sorted,5000,Deletion,AVLTreeMap,513.84
+Partially Sorted,5500,Deletion,AVLTreeMap,534.4
+Partially Sorted,6000,Deletion,AVLTreeMap,666.98
+Partially Sorted,6500,Deletion,AVLTreeMap,974.92
+Partially Sorted,7000,Deletion,AVLTreeMap,784.96
+Partially Sorted,7500,Deletion,AVLTreeMap,778.64
+Partially Sorted,8000,Deletion,AVLTreeMap,903.96
+Partially Sorted,8500,Deletion,AVLTreeMap,983.44
+Partially Sorted,9000,Deletion,AVLTreeMap,994.48
+Partially Sorted,9500,Deletion,AVLTreeMap,1052.26
+Partially Sorted,10000,Deletion,AVLTreeMap,1125.02
+Partially Sorted,100,Deletion,TreeMap,3.08
+Partially Sorted,200,Deletion,TreeMap,6.68
+Partially Sorted,300,Deletion,TreeMap,11.36
+Partially Sorted,400,Deletion,TreeMap,18.94
+Partially Sorted,500,Deletion,TreeMap,25.12
+Partially Sorted,600,Deletion,TreeMap,30.58
+Partially Sorted,700,Deletion,TreeMap,39.04
+Partially Sorted,800,Deletion,TreeMap,43.92
+Partially Sorted,900,Deletion,TreeMap,58.66
+Partially Sorted,1000,Deletion,TreeMap,58.34
+Partially Sorted,1500,Deletion,TreeMap,87.96
+Partially Sorted,2000,Deletion,TreeMap,127.2
+Partially Sorted,2500,Deletion,TreeMap,155.74
+Partially Sorted,3000,Deletion,TreeMap,199.24
+Partially Sorted,3500,Deletion,TreeMap,236.96
+Partially Sorted,4000,Deletion,TreeMap,283.46
+Partially Sorted,4500,Deletion,TreeMap,338.1
+Partially Sorted,5000,Deletion,TreeMap,354.86
+Partially Sorted,5500,Deletion,TreeMap,400.1
+Partially Sorted,6000,Deletion,TreeMap,458.56
+Partially Sorted,6500,Deletion,TreeMap,496.56
+Partially Sorted,7000,Deletion,TreeMap,493.28
+Partially Sorted,7500,Deletion,TreeMap,521.46
+Partially Sorted,8000,Deletion,TreeMap,677.12
+Partially Sorted,8500,Deletion,TreeMap,603.12
+Partially Sorted,9000,Deletion,TreeMap,648.12
+Partially Sorted,9500,Deletion,TreeMap,719.5
+Partially Sorted,10000,Deletion,TreeMap,770.5
+Random,100,Traversal,Treap,83.82
+Random,200,Traversal,Treap,70.82
+Random,300,Traversal,Treap,102.0
+Random,400,Traversal,Treap,100.28
+Random,500,Traversal,Treap,104.6
+Random,600,Traversal,Treap,118.56
+Random,700,Traversal,Treap,145.6
+Random,800,Traversal,Treap,157.66
+Random,900,Traversal,Treap,110.64
+Random,1000,Traversal,Treap,120.46
+Random,1500,Traversal,Treap,280.66
+Random,2000,Traversal,Treap,108.94
+Random,2500,Traversal,Treap,98.76
+Random,3000,Traversal,Treap,155.02
+Random,3500,Traversal,Treap,211.76
+Random,4000,Traversal,Treap,123.96
+Random,4500,Traversal,Treap,118.56
+Random,5000,Traversal,Treap,128.32
+Random,5500,Traversal,Treap,136.8
+Random,6000,Traversal,Treap,144.3
+Random,6500,Traversal,Treap,197.2
+Random,7000,Traversal,Treap,186.52
+Random,7500,Traversal,Treap,165.52
+Random,8000,Traversal,Treap,226.78
+Random,8500,Traversal,Treap,233.26
+Random,9000,Traversal,Treap,271.78
+Random,9500,Traversal,Treap,328.28
+Random,10000,Traversal,Treap,308.98
+Random,100,Traversal,AVLTreeMap,44.28
+Random,200,Traversal,AVLTreeMap,67.76
+Random,300,Traversal,AVLTreeMap,90.66
+Random,400,Traversal,AVLTreeMap,87.34
+Random,500,Traversal,AVLTreeMap,105.22
+Random,600,Traversal,AVLTreeMap,121.9
+Random,700,Traversal,AVLTreeMap,140.36
+Random,800,Traversal,AVLTreeMap,149.74
+Random,900,Traversal,AVLTreeMap,130.88
+Random,1000,Traversal,AVLTreeMap,137.54
+Random,1500,Traversal,AVLTreeMap,85.84
+Random,2000,Traversal,AVLTreeMap,75.96
+Random,2500,Traversal,AVLTreeMap,96.28
+Random,3000,Traversal,AVLTreeMap,173.94
+Random,3500,Traversal,AVLTreeMap,130.04
+Random,4000,Traversal,AVLTreeMap,712.78
+Random,4500,Traversal,AVLTreeMap,123.76
+Random,5000,Traversal,AVLTreeMap,155.18
+Random,5500,Traversal,AVLTreeMap,313.04
+Random,6000,Traversal,AVLTreeMap,180.58
+Random,6500,Traversal,AVLTreeMap,161.3
+Random,7000,Traversal,AVLTreeMap,208.24
+Random,7500,Traversal,AVLTreeMap,189.42
+Random,8000,Traversal,AVLTreeMap,201.02
+Random,8500,Traversal,AVLTreeMap,226.56
+Random,9000,Traversal,AVLTreeMap,241.14
+Random,9500,Traversal,AVLTreeMap,246.28
+Random,10000,Traversal,AVLTreeMap,257.38
+Random,100,Traversal,TreeMap,34.18
+Random,200,Traversal,TreeMap,22.22
+Random,300,Traversal,TreeMap,30.22
+Random,400,Traversal,TreeMap,57.94
+Random,500,Traversal,TreeMap,20.56
+Random,600,Traversal,TreeMap,12.88
+Random,700,Traversal,TreeMap,10.88
+Random,800,Traversal,TreeMap,16.58
+Random,900,Traversal,TreeMap,18.08
+Random,1000,Traversal,TreeMap,10.36
+Random,1500,Traversal,TreeMap,15.9
+Random,2000,Traversal,TreeMap,28.48
+Random,2500,Traversal,TreeMap,27.44
+Random,3000,Traversal,TreeMap,36.36
+Random,3500,Traversal,TreeMap,37.66
+Random,4000,Traversal,TreeMap,46.9
+Random,4500,Traversal,TreeMap,61.5
+Random,5000,Traversal,TreeMap,47.08
+Random,5500,Traversal,TreeMap,55.66
+Random,6000,Traversal,TreeMap,77.58
+Random,6500,Traversal,TreeMap,80.52
+Random,7000,Traversal,TreeMap,87.46
+Random,7500,Traversal,TreeMap,83.06
+Random,8000,Traversal,TreeMap,89.78
+Random,8500,Traversal,TreeMap,79.92
+Random,9000,Traversal,TreeMap,123.3
+Random,9500,Traversal,TreeMap,113.42
+Random,10000,Traversal,TreeMap,156.74
+Sorted Ascending,100,Traversal,Treap,1.6
+Sorted Ascending,200,Traversal,Treap,2.96
+Sorted Ascending,300,Traversal,Treap,4.22
+Sorted Ascending,400,Traversal,Treap,6.0
+Sorted Ascending,500,Traversal,Treap,7.24
+Sorted Ascending,600,Traversal,Treap,9.2
+Sorted Ascending,700,Traversal,Treap,25.44
+Sorted Ascending,800,Traversal,Treap,11.32
+Sorted Ascending,900,Traversal,Treap,15.72
+Sorted Ascending,1000,Traversal,Treap,15.1
+Sorted Ascending,1500,Traversal,Treap,53.48
+Sorted Ascending,2000,Traversal,Treap,31.28
+Sorted Ascending,2500,Traversal,Treap,42.42
+Sorted Ascending,3000,Traversal,Treap,49.86
+Sorted Ascending,3500,Traversal,Treap,59.68
+Sorted Ascending,4000,Traversal,Treap,126.4
+Sorted Ascending,4500,Traversal,Treap,83.94
+Sorted Ascending,5000,Traversal,Treap,83.28
+Sorted Ascending,5500,Traversal,Treap,100.5
+Sorted Ascending,6000,Traversal,Treap,111.46
+Sorted Ascending,6500,Traversal,Treap,125.24
+Sorted Ascending,7000,Traversal,Treap,146.12
+Sorted Ascending,7500,Traversal,Treap,144.54
+Sorted Ascending,8000,Traversal,Treap,133.62
+Sorted Ascending,8500,Traversal,Treap,158.06
+Sorted Ascending,9000,Traversal,Treap,203.72
+Sorted Ascending,9500,Traversal,Treap,182.06
+Sorted Ascending,10000,Traversal,Treap,181.8
+Sorted Ascending,100,Traversal,AVLTreeMap,1.5
+Sorted Ascending,200,Traversal,AVLTreeMap,2.5
+Sorted Ascending,300,Traversal,AVLTreeMap,4.4
+Sorted Ascending,400,Traversal,AVLTreeMap,4.58
+Sorted Ascending,500,Traversal,AVLTreeMap,5.84
+Sorted Ascending,600,Traversal,AVLTreeMap,7.04
+Sorted Ascending,700,Traversal,AVLTreeMap,9.3
+Sorted Ascending,800,Traversal,AVLTreeMap,9.6
+Sorted Ascending,900,Traversal,AVLTreeMap,11.86
+Sorted Ascending,1000,Traversal,AVLTreeMap,12.52
+Sorted Ascending,1500,Traversal,AVLTreeMap,20.24
+Sorted Ascending,2000,Traversal,AVLTreeMap,27.54
+Sorted Ascending,2500,Traversal,AVLTreeMap,33.2
+Sorted Ascending,3000,Traversal,AVLTreeMap,40.84
+Sorted Ascending,3500,Traversal,AVLTreeMap,45.92
+Sorted Ascending,4000,Traversal,AVLTreeMap,50.48
+Sorted Ascending,4500,Traversal,AVLTreeMap,61.66
+Sorted Ascending,5000,Traversal,AVLTreeMap,69.58
+Sorted Ascending,5500,Traversal,AVLTreeMap,77.72
+Sorted Ascending,6000,Traversal,AVLTreeMap,88.86
+Sorted Ascending,6500,Traversal,AVLTreeMap,83.16
+Sorted Ascending,7000,Traversal,AVLTreeMap,95.28
+Sorted Ascending,7500,Traversal,AVLTreeMap,106.36
+Sorted Ascending,8000,Traversal,AVLTreeMap,97.66
+Sorted Ascending,8500,Traversal,AVLTreeMap,114.34
+Sorted Ascending,9000,Traversal,AVLTreeMap,131.38
+Sorted Ascending,9500,Traversal,AVLTreeMap,129.2
+Sorted Ascending,10000,Traversal,AVLTreeMap,156.66
+Sorted Ascending,100,Traversal,TreeMap,0.42
+Sorted Ascending,200,Traversal,TreeMap,0.72
+Sorted Ascending,300,Traversal,TreeMap,1.14
+Sorted Ascending,400,Traversal,TreeMap,1.38
+Sorted Ascending,500,Traversal,TreeMap,1.6
+Sorted Ascending,600,Traversal,TreeMap,2.22
+Sorted Ascending,700,Traversal,TreeMap,2.28
+Sorted Ascending,800,Traversal,TreeMap,2.8
+Sorted Ascending,900,Traversal,TreeMap,3.04
+Sorted Ascending,1000,Traversal,TreeMap,4.12
+Sorted Ascending,1500,Traversal,TreeMap,5.28
+Sorted Ascending,2000,Traversal,TreeMap,6.48
+Sorted Ascending,2500,Traversal,TreeMap,10.0
+Sorted Ascending,3000,Traversal,TreeMap,12.98
+Sorted Ascending,3500,Traversal,TreeMap,13.06
+Sorted Ascending,4000,Traversal,TreeMap,13.38
+Sorted Ascending,4500,Traversal,TreeMap,17.04
+Sorted Ascending,5000,Traversal,TreeMap,16.06
+Sorted Ascending,5500,Traversal,TreeMap,23.0
+Sorted Ascending,6000,Traversal,TreeMap,24.38
+Sorted Ascending,6500,Traversal,TreeMap,27.7
+Sorted Ascending,7000,Traversal,TreeMap,26.64
+Sorted Ascending,7500,Traversal,TreeMap,28.52
+Sorted Ascending,8000,Traversal,TreeMap,32.24
+Sorted Ascending,8500,Traversal,TreeMap,40.5
+Sorted Ascending,9000,Traversal,TreeMap,35.06
+Sorted Ascending,9500,Traversal,TreeMap,39.16
+Sorted Ascending,10000,Traversal,TreeMap,41.94
+Sorted Descending,100,Traversal,Treap,1.94
+Sorted Descending,200,Traversal,Treap,3.04
+Sorted Descending,300,Traversal,Treap,5.02
+Sorted Descending,400,Traversal,Treap,5.86
+Sorted Descending,500,Traversal,Treap,7.4
+Sorted Descending,600,Traversal,Treap,9.72
+Sorted Descending,700,Traversal,Treap,10.92
+Sorted Descending,800,Traversal,Treap,12.48
+Sorted Descending,900,Traversal,Treap,14.1
+Sorted Descending,1000,Traversal,Treap,16.02
+Sorted Descending,1500,Traversal,Treap,25.86
+Sorted Descending,2000,Traversal,Treap,47.74
+Sorted Descending,2500,Traversal,Treap,44.64
+Sorted Descending,3000,Traversal,Treap,52.86
+Sorted Descending,3500,Traversal,Treap,70.18
+Sorted Descending,4000,Traversal,Treap,76.8
+Sorted Descending,4500,Traversal,Treap,83.24
+Sorted Descending,5000,Traversal,Treap,101.76
+Sorted Descending,5500,Traversal,Treap,109.28
+Sorted Descending,6000,Traversal,Treap,116.72
+Sorted Descending,6500,Traversal,Treap,138.28
+Sorted Descending,7000,Traversal,Treap,140.54
+Sorted Descending,7500,Traversal,Treap,165.2
+Sorted Descending,8000,Traversal,Treap,172.5
+Sorted Descending,8500,Traversal,Treap,187.12
+Sorted Descending,9000,Traversal,Treap,221.54
+Sorted Descending,9500,Traversal,Treap,218.74
+Sorted Descending,10000,Traversal,Treap,223.88
+Sorted Descending,100,Traversal,AVLTreeMap,1.62
+Sorted Descending,200,Traversal,AVLTreeMap,2.96
+Sorted Descending,300,Traversal,AVLTreeMap,3.98
+Sorted Descending,400,Traversal,AVLTreeMap,4.98
+Sorted Descending,500,Traversal,AVLTreeMap,6.68
+Sorted Descending,600,Traversal,AVLTreeMap,6.8
+Sorted Descending,700,Traversal,AVLTreeMap,9.74
+Sorted Descending,800,Traversal,AVLTreeMap,9.8
+Sorted Descending,900,Traversal,AVLTreeMap,13.7
+Sorted Descending,1000,Traversal,AVLTreeMap,13.3
+Sorted Descending,1500,Traversal,AVLTreeMap,20.18
+Sorted Descending,2000,Traversal,AVLTreeMap,28.14
+Sorted Descending,2500,Traversal,AVLTreeMap,42.06
+Sorted Descending,3000,Traversal,AVLTreeMap,55.94
+Sorted Descending,3500,Traversal,AVLTreeMap,57.16
+Sorted Descending,4000,Traversal,AVLTreeMap,84.62
+Sorted Descending,4500,Traversal,AVLTreeMap,77.1
+Sorted Descending,5000,Traversal,AVLTreeMap,82.62
+Sorted Descending,5500,Traversal,AVLTreeMap,78.86
+Sorted Descending,6000,Traversal,AVLTreeMap,103.66
+Sorted Descending,6500,Traversal,AVLTreeMap,108.5
+Sorted Descending,7000,Traversal,AVLTreeMap,138.96
+Sorted Descending,7500,Traversal,AVLTreeMap,148.82
+Sorted Descending,8000,Traversal,AVLTreeMap,178.48
+Sorted Descending,8500,Traversal,AVLTreeMap,138.44
+Sorted Descending,9000,Traversal,AVLTreeMap,589.46
+Sorted Descending,9500,Traversal,AVLTreeMap,163.92
+Sorted Descending,10000,Traversal,AVLTreeMap,162.04
+Sorted Descending,100,Traversal,TreeMap,0.44
+Sorted Descending,200,Traversal,TreeMap,0.76
+Sorted Descending,300,Traversal,TreeMap,1.1
+Sorted Descending,400,Traversal,TreeMap,1.32
+Sorted Descending,500,Traversal,TreeMap,1.68
+Sorted Descending,600,Traversal,TreeMap,1.94
+Sorted Descending,700,Traversal,TreeMap,2.36
+Sorted Descending,800,Traversal,TreeMap,2.82
+Sorted Descending,900,Traversal,TreeMap,3.12
+Sorted Descending,1000,Traversal,TreeMap,3.46
+Sorted Descending,1500,Traversal,TreeMap,5.14
+Sorted Descending,2000,Traversal,TreeMap,7.02
+Sorted Descending,2500,Traversal,TreeMap,8.94
+Sorted Descending,3000,Traversal,TreeMap,18.24
+Sorted Descending,3500,Traversal,TreeMap,14.14
+Sorted Descending,4000,Traversal,TreeMap,23.5
+Sorted Descending,4500,Traversal,TreeMap,25.96
+Sorted Descending,5000,Traversal,TreeMap,19.9
+Sorted Descending,5500,Traversal,TreeMap,22.84
+Sorted Descending,6000,Traversal,TreeMap,29.16
+Sorted Descending,6500,Traversal,TreeMap,28.58
+Sorted Descending,7000,Traversal,TreeMap,62.76
+Sorted Descending,7500,Traversal,TreeMap,31.2
+Sorted Descending,8000,Traversal,TreeMap,52.0
+Sorted Descending,8500,Traversal,TreeMap,35.16
+Sorted Descending,9000,Traversal,TreeMap,37.72
+Sorted Descending,9500,Traversal,TreeMap,68.98
+Sorted Descending,10000,Traversal,TreeMap,81.24
+Partially Sorted,100,Traversal,Treap,1.76
+Partially Sorted,200,Traversal,Treap,2.98
+Partially Sorted,300,Traversal,Treap,4.62
+Partially Sorted,400,Traversal,Treap,5.76
+Partially Sorted,500,Traversal,Treap,7.48
+Partially Sorted,600,Traversal,Treap,10.66
+Partially Sorted,700,Traversal,Treap,10.94
+Partially Sorted,800,Traversal,Treap,14.1
+Partially Sorted,900,Traversal,Treap,13.66
+Partially Sorted,1000,Traversal,Treap,16.42
+Partially Sorted,1500,Traversal,Treap,26.96
+Partially Sorted,2000,Traversal,Treap,37.54
+Partially Sorted,2500,Traversal,Treap,42.8
+Partially Sorted,3000,Traversal,Treap,61.4
+Partially Sorted,3500,Traversal,Treap,66.76
+Partially Sorted,4000,Traversal,Treap,79.48
+Partially Sorted,4500,Traversal,Treap,113.9
+Partially Sorted,5000,Traversal,Treap,113.78
+Partially Sorted,5500,Traversal,Treap,103.18
+Partially Sorted,6000,Traversal,Treap,108.0
+Partially Sorted,6500,Traversal,Treap,158.64
+Partially Sorted,7000,Traversal,Treap,155.26
+Partially Sorted,7500,Traversal,Treap,161.56
+Partially Sorted,8000,Traversal,Treap,208.68
+Partially Sorted,8500,Traversal,Treap,219.04
+Partially Sorted,9000,Traversal,Treap,208.92
+Partially Sorted,9500,Traversal,Treap,195.84
+Partially Sorted,10000,Traversal,Treap,227.12
+Partially Sorted,100,Traversal,AVLTreeMap,1.56
+Partially Sorted,200,Traversal,AVLTreeMap,2.7
+Partially Sorted,300,Traversal,AVLTreeMap,4.36
+Partially Sorted,400,Traversal,AVLTreeMap,5.38
+Partially Sorted,500,Traversal,AVLTreeMap,7.4
+Partially Sorted,600,Traversal,AVLTreeMap,8.58
+Partially Sorted,700,Traversal,AVLTreeMap,10.14
+Partially Sorted,800,Traversal,AVLTreeMap,11.98
+Partially Sorted,900,Traversal,AVLTreeMap,14.46
+Partially Sorted,1000,Traversal,AVLTreeMap,14.8
+Partially Sorted,1500,Traversal,AVLTreeMap,26.62
+Partially Sorted,2000,Traversal,AVLTreeMap,34.08
+Partially Sorted,2500,Traversal,AVLTreeMap,44.9
+Partially Sorted,3000,Traversal,AVLTreeMap,51.84
+Partially Sorted,3500,Traversal,AVLTreeMap,65.18
+Partially Sorted,4000,Traversal,AVLTreeMap,73.3
+Partially Sorted,4500,Traversal,AVLTreeMap,91.48
+Partially Sorted,5000,Traversal,AVLTreeMap,99.0
+Partially Sorted,5500,Traversal,AVLTreeMap,92.82
+Partially Sorted,6000,Traversal,AVLTreeMap,105.66
+Partially Sorted,6500,Traversal,AVLTreeMap,200.82
+Partially Sorted,7000,Traversal,AVLTreeMap,115.5
+Partially Sorted,7500,Traversal,AVLTreeMap,146.72
+Partially Sorted,8000,Traversal,AVLTreeMap,181.72
+Partially Sorted,8500,Traversal,AVLTreeMap,176.46
+Partially Sorted,9000,Traversal,AVLTreeMap,168.9
+Partially Sorted,9500,Traversal,AVLTreeMap,199.9
+Partially Sorted,10000,Traversal,AVLTreeMap,245.64
+Partially Sorted,100,Traversal,TreeMap,0.5
+Partially Sorted,200,Traversal,TreeMap,0.88
+Partially Sorted,300,Traversal,TreeMap,1.34
+Partially Sorted,400,Traversal,TreeMap,1.8
+Partially Sorted,500,Traversal,TreeMap,2.24
+Partially Sorted,600,Traversal,TreeMap,2.64
+Partially Sorted,700,Traversal,TreeMap,3.52
+Partially Sorted,800,Traversal,TreeMap,3.96
+Partially Sorted,900,Traversal,TreeMap,5.54
+Partially Sorted,1000,Traversal,TreeMap,5.7
+Partially Sorted,1500,Traversal,TreeMap,8.46
+Partially Sorted,2000,Traversal,TreeMap,14.56
+Partially Sorted,2500,Traversal,TreeMap,13.8
+Partially Sorted,3000,Traversal,TreeMap,19.62
+Partially Sorted,3500,Traversal,TreeMap,25.08
+Partially Sorted,4000,Traversal,TreeMap,33.52
+Partially Sorted,4500,Traversal,TreeMap,36.34
+Partially Sorted,5000,Traversal,TreeMap,38.6
+Partially Sorted,5500,Traversal,TreeMap,42.62
+Partially Sorted,6000,Traversal,TreeMap,61.72
+Partially Sorted,6500,Traversal,TreeMap,54.84
+Partially Sorted,7000,Traversal,TreeMap,54.9
+Partially Sorted,7500,Traversal,TreeMap,63.18
+Partially Sorted,8000,Traversal,TreeMap,80.8
+Partially Sorted,8500,Traversal,TreeMap,66.8
+Partially Sorted,9000,Traversal,TreeMap,74.22
+Partially Sorted,9500,Traversal,TreeMap,88.98
+Partially Sorted,10000,Traversal,TreeMap,89.68
