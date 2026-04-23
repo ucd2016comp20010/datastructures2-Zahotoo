@@ -10,7 +10,13 @@ import java.util.Random;
 import java.util.function.Consumer;
 
 /**
- * Q3 sorting benchmark.
+ * Sorting Benchmark
+ * Compare:
+ *      - TreapSort
+ *      - PQSort
+ *      - Collections.sort
+ *      - QuickSort
+ *      - MergeSort
  */
 public class SortingBenchmark {
 
@@ -68,6 +74,7 @@ public class SortingBenchmark {
             data[i] = i;
         }
 
+        // Keep the random cases repeatable.
         Random rnd = new Random(12345);
         switch (pattern) {
             case "Random":
@@ -93,11 +100,13 @@ public class SortingBenchmark {
     }
 
     private static double bench(Integer[] data, Consumer<Integer[]> sorter) {
+        // Warm up first.
         for (int w = 0; w < WARMUP_RUNS; w++) {
             Integer[] copy = copy(data);
             sorter.accept(copy);
         }
 
+        // Measure the sort.
         long total = 0;
         for (int t = 0; t < TIMED_RUNS; t++) {
             Integer[] copy = copy(data);
@@ -118,6 +127,7 @@ public class SortingBenchmark {
             treap.put(x, count == null ? 1 : count + 1);
         }
 
+        // Write back.
         int j = 0;
         for (Entry<Integer, Integer> e : treap.entrySet()) {
             for (int c = 0; c < e.getValue(); c++) {
@@ -192,6 +202,7 @@ public class SortingBenchmark {
     }
 
     private static void merge(Integer[] data, Integer[] temp, int left, int middle, int right) {
+        // Merge the halves back.
         int i = left, j = middle + 1, k = left;
         while (i <= middle && j <= right) {
             if (data[i] <= data[j]) {
