@@ -181,25 +181,80 @@ public class Treap<K, V> extends TreeMap<K, V> {
         }
     }
 
+    /**
+     * Debug helper: insert a key-value pair with a manually specified priority.
+     * This bypasses random priority generation and is intended for testing only.
+     */
+    public V putWithPriority(K key, V value, int customPriority) {
+        checkKey(key);
+        Entry<K, V> newEntry = new MapEntry<>(key, value);
+        Position<Entry<K, V>> p = treeSearch(root(), key);
+
+        if (isExternal(p)) {
+            tree.set(p, newEntry);
+            tree.addLeft(p, null);
+            tree.addRight(p, null);
+
+            tree.setAux(p, customPriority);
+
+            while (!isRoot(p) && priority(p) < priority(parent(p))) {
+                rotate(p);
+            }
+            return null;
+        } else {
+            V old = p.getElement().getValue();
+            set(p, newEntry);
+            tree.setAux(p, customPriority);
+            return old;
+        }
+    }
+
     public static void main(String[] args) {
+
         Treap<Integer, Integer> treap = new Treap<>();
-        Integer[] arr = {5, 3, 7, 1, 4, 6, 8, 2};
 
-        for (Integer i : arr) treap.put(i, i);
+        // Build the exact min-heap treap from your figure
+        treap.putWithPriority(50, 50, 2);
+        treap.putWithPriority(30, 30, 5);
+        treap.putWithPriority(70, 70, 10);
+        treap.putWithPriority(20, 20, 15);
+        treap.putWithPriority(40, 40, 20);
 
-        System.out.println("Tree shape:");
+        System.out.println("Initial treap:");
         System.out.println(treap.toBinaryTreeString());
-        System.out.println("Inorder (should be sorted): " + treap.entrySet());
         System.out.println("Heap valid: " + treap.isHeap());
         System.out.println("BST valid:  " + treap.isBST());
         treap.printEntriesPriority();
 
-        treap.remove(5);
-        System.out.println("\nAfter remove(5):");
+        // Insert 80 with priority 6
+        treap.putWithPriority(80, 80, 6);
+        treap.putWithPriority(35, 35, 1);
+
+        System.out.println("\nAfter inserting 80 with priority 6:");
         System.out.println(treap.toBinaryTreeString());
-        System.out.println("Inorder: " + treap.entrySet());
         System.out.println("Heap valid: " + treap.isHeap());
         System.out.println("BST valid:  " + treap.isBST());
         treap.printEntriesPriority();
+
+
+//        Treap<Integer, Integer> treap = new Treap<>();
+//        Integer[] arr = {5, 3, 7, 1, 4, 6, 8, 2};
+//
+//        for (Integer i : arr) treap.put(i, i);
+//
+//        System.out.println("Tree shape:");
+//        System.out.println(treap.toBinaryTreeString());
+//        System.out.println("Inorder (should be sorted): " + treap.entrySet());
+//        System.out.println("Heap valid: " + treap.isHeap());
+//        System.out.println("BST valid:  " + treap.isBST());
+//        treap.printEntriesPriority();
+//
+//        treap.remove(5);
+//        System.out.println("\nAfter remove(5):");
+//        System.out.println(treap.toBinaryTreeString());
+//        System.out.println("Inorder: " + treap.entrySet());
+//        System.out.println("Heap valid: " + treap.isHeap());
+//        System.out.println("BST valid:  " + treap.isBST());
+//        treap.printEntriesPriority();
     }
 }

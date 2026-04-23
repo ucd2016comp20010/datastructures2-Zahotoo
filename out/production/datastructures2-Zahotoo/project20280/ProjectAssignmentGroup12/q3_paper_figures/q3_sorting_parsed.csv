@@ -1,0 +1,421 @@
+pattern,n,algorithm,time_us
+Random,100,TreapSort,205.32
+Random,200,TreapSort,158.4
+Random,300,TreapSort,209.3
+Random,400,TreapSort,289.28
+Random,500,TreapSort,400.62
+Random,600,TreapSort,416.42
+Random,700,TreapSort,409.76
+Random,800,TreapSort,311.98
+Random,900,TreapSort,376.58
+Random,1000,TreapSort,379.72
+Random,1500,TreapSort,515.34
+Random,2000,TreapSort,538.4
+Random,2500,TreapSort,670.06
+Random,3000,TreapSort,869.72
+Random,3500,TreapSort,909.24
+Random,4000,TreapSort,1168.8
+Random,4500,TreapSort,1154.48
+Random,5000,TreapSort,1707.14
+Random,5500,TreapSort,1433.62
+Random,6000,TreapSort,1792.82
+Random,6500,TreapSort,1813.28
+Random,7000,TreapSort,2025.22
+Random,7500,TreapSort,2110.68
+Random,8000,TreapSort,2902.34
+Random,8500,TreapSort,2518.94
+Random,9000,TreapSort,3203.64
+Random,9500,TreapSort,3113.74
+Random,10000,TreapSort,3454.32
+Random,100,PQSort,174.04
+Random,200,PQSort,105.46
+Random,300,PQSort,119.76
+Random,400,PQSort,115.44
+Random,500,PQSort,88.66
+Random,600,PQSort,118.36
+Random,700,PQSort,113.04
+Random,800,PQSort,126.68
+Random,900,PQSort,163.88
+Random,1000,PQSort,108.5
+Random,1500,PQSort,165.9
+Random,2000,PQSort,348.06
+Random,2500,PQSort,348.08
+Random,3000,PQSort,392.04
+Random,3500,PQSort,523.88
+Random,4000,PQSort,552.18
+Random,4500,PQSort,715.44
+Random,5000,PQSort,720.56
+Random,5500,PQSort,857.12
+Random,6000,PQSort,929.16
+Random,6500,PQSort,888.52
+Random,7000,PQSort,1049.96
+Random,7500,PQSort,1255.16
+Random,8000,PQSort,1308.42
+Random,8500,PQSort,1407.02
+Random,9000,PQSort,1460.38
+Random,9500,PQSort,1596.4
+Random,10000,PQSort,1872.5
+Random,100,Collections.sort,31.2
+Random,200,Collections.sort,70.9
+Random,300,Collections.sort,101.88
+Random,400,Collections.sort,109.74
+Random,500,Collections.sort,106.72
+Random,600,Collections.sort,88.18
+Random,700,Collections.sort,112.1
+Random,800,Collections.sort,127.38
+Random,900,Collections.sort,147.2
+Random,1000,Collections.sort,158.52
+Random,1500,Collections.sort,276.44
+Random,2000,Collections.sort,257.82
+Random,2500,Collections.sort,362.1
+Random,3000,Collections.sort,431.66
+Random,3500,Collections.sort,494.76
+Random,4000,Collections.sort,602.68
+Random,4500,Collections.sort,525.52
+Random,5000,Collections.sort,670.8
+Random,5500,Collections.sort,751.24
+Random,6000,Collections.sort,740.28
+Random,6500,Collections.sort,878.02
+Random,7000,Collections.sort,918.66
+Random,7500,Collections.sort,1426.8
+Random,8000,Collections.sort,1146.2
+Random,8500,Collections.sort,1451.46
+Random,9000,Collections.sort,1084.76
+Random,9500,Collections.sort,1227.0
+Random,10000,Collections.sort,1376.62
+Random,100,QuickSort,29.32
+Random,200,QuickSort,7.54
+Random,300,QuickSort,13.02
+Random,400,QuickSort,16.04
+Random,500,QuickSort,10.3
+Random,600,QuickSort,15.68
+Random,700,QuickSort,17.04
+Random,800,QuickSort,46.66
+Random,900,QuickSort,38.24
+Random,1000,QuickSort,32.54
+Random,1500,QuickSort,79.62
+Random,2000,QuickSort,99.5
+Random,2500,QuickSort,141.82
+Random,3000,QuickSort,176.82
+Random,3500,QuickSort,192.76
+Random,4000,QuickSort,235.98
+Random,4500,QuickSort,265.04
+Random,5000,QuickSort,287.96
+Random,5500,QuickSort,350.58
+Random,6000,QuickSort,386.24
+Random,6500,QuickSort,437.6
+Random,7000,QuickSort,462.02
+Random,7500,QuickSort,542.52
+Random,8000,QuickSort,622.74
+Random,8500,QuickSort,624.92
+Random,9000,QuickSort,591.02
+Random,9500,QuickSort,628.12
+Random,10000,QuickSort,711.48
+Random,100,MergeSort,41.4
+Random,200,MergeSort,18.2
+Random,300,MergeSort,177.08
+Random,400,MergeSort,20.24
+Random,500,MergeSort,30.24
+Random,600,MergeSort,20.88
+Random,700,MergeSort,26.2
+Random,800,MergeSort,41.24
+Random,900,MergeSort,47.38
+Random,1000,MergeSort,52.4
+Random,1500,MergeSort,112.62
+Random,2000,MergeSort,140.78
+Random,2500,MergeSort,188.1
+Random,3000,MergeSort,254.38
+Random,3500,MergeSort,290.76
+Random,4000,MergeSort,348.64
+Random,4500,MergeSort,408.54
+Random,5000,MergeSort,422.62
+Random,5500,MergeSort,451.68
+Random,6000,MergeSort,530.44
+Random,6500,MergeSort,578.18
+Random,7000,MergeSort,634.92
+Random,7500,MergeSort,745.62
+Random,8000,MergeSort,934.66
+Random,8500,MergeSort,868.58
+Random,9000,MergeSort,870.22
+Random,9500,MergeSort,1021.5
+Random,10000,MergeSort,981.7
+Nearly Sorted,100,TreapSort,18.38
+Nearly Sorted,200,TreapSort,33.32
+Nearly Sorted,300,TreapSort,50.44
+Nearly Sorted,400,TreapSort,77.54
+Nearly Sorted,500,TreapSort,88.26
+Nearly Sorted,600,TreapSort,106.8
+Nearly Sorted,700,TreapSort,125.26
+Nearly Sorted,800,TreapSort,154.82
+Nearly Sorted,900,TreapSort,179.5
+Nearly Sorted,1000,TreapSort,192.84
+Nearly Sorted,1500,TreapSort,354.28
+Nearly Sorted,2000,TreapSort,426.96
+Nearly Sorted,2500,TreapSort,460.58
+Nearly Sorted,3000,TreapSort,573.6
+Nearly Sorted,3500,TreapSort,658.1
+Nearly Sorted,4000,TreapSort,839.86
+Nearly Sorted,4500,TreapSort,871.28
+Nearly Sorted,5000,TreapSort,1026.36
+Nearly Sorted,5500,TreapSort,941.28
+Nearly Sorted,6000,TreapSort,1048.9
+Nearly Sorted,6500,TreapSort,1104.96
+Nearly Sorted,7000,TreapSort,1252.36
+Nearly Sorted,7500,TreapSort,1460.52
+Nearly Sorted,8000,TreapSort,1493.34
+Nearly Sorted,8500,TreapSort,1511.08
+Nearly Sorted,9000,TreapSort,1788.32
+Nearly Sorted,9500,TreapSort,1930.8
+Nearly Sorted,10000,TreapSort,1743.2
+Nearly Sorted,100,PQSort,3.82
+Nearly Sorted,200,PQSort,10.84
+Nearly Sorted,300,PQSort,17.6
+Nearly Sorted,400,PQSort,30.36
+Nearly Sorted,500,PQSort,27.08
+Nearly Sorted,600,PQSort,48.48
+Nearly Sorted,700,PQSort,54.68
+Nearly Sorted,800,PQSort,90.3
+Nearly Sorted,900,PQSort,81.88
+Nearly Sorted,1000,PQSort,86.04
+Nearly Sorted,1500,PQSort,137.88
+Nearly Sorted,2000,PQSort,196.5
+Nearly Sorted,2500,PQSort,267.16
+Nearly Sorted,3000,PQSort,332.0
+Nearly Sorted,3500,PQSort,393.74
+Nearly Sorted,4000,PQSort,483.18
+Nearly Sorted,4500,PQSort,543.44
+Nearly Sorted,5000,PQSort,564.66
+Nearly Sorted,5500,PQSort,578.92
+Nearly Sorted,6000,PQSort,642.04
+Nearly Sorted,6500,PQSort,696.62
+Nearly Sorted,7000,PQSort,724.4
+Nearly Sorted,7500,PQSort,1077.4
+Nearly Sorted,8000,PQSort,859.26
+Nearly Sorted,8500,PQSort,965.32
+Nearly Sorted,9000,PQSort,1075.24
+Nearly Sorted,9500,PQSort,1406.66
+Nearly Sorted,10000,PQSort,1198.8
+Nearly Sorted,100,Collections.sort,26.42
+Nearly Sorted,200,Collections.sort,17.36
+Nearly Sorted,300,Collections.sort,21.36
+Nearly Sorted,400,Collections.sort,116.74
+Nearly Sorted,500,Collections.sort,30.16
+Nearly Sorted,600,Collections.sort,34.74
+Nearly Sorted,700,Collections.sort,44.98
+Nearly Sorted,800,Collections.sort,49.06
+Nearly Sorted,900,Collections.sort,85.06
+Nearly Sorted,1000,Collections.sort,68.74
+Nearly Sorted,1500,Collections.sort,115.9
+Nearly Sorted,2000,Collections.sort,136.24
+Nearly Sorted,2500,Collections.sort,177.24
+Nearly Sorted,3000,Collections.sort,228.16
+Nearly Sorted,3500,Collections.sort,237.48
+Nearly Sorted,4000,Collections.sort,288.88
+Nearly Sorted,4500,Collections.sort,333.12
+Nearly Sorted,5000,Collections.sort,329.3
+Nearly Sorted,5500,Collections.sort,373.64
+Nearly Sorted,6000,Collections.sort,461.82
+Nearly Sorted,6500,Collections.sort,443.48
+Nearly Sorted,7000,Collections.sort,476.24
+Nearly Sorted,7500,Collections.sort,607.12
+Nearly Sorted,8000,Collections.sort,590.6
+Nearly Sorted,8500,Collections.sort,549.88
+Nearly Sorted,9000,Collections.sort,570.46
+Nearly Sorted,9500,Collections.sort,663.12
+Nearly Sorted,10000,Collections.sort,671.54
+Nearly Sorted,100,QuickSort,0.64
+Nearly Sorted,200,QuickSort,1.42
+Nearly Sorted,300,QuickSort,2.0
+Nearly Sorted,400,QuickSort,7.02
+Nearly Sorted,500,QuickSort,3.42
+Nearly Sorted,600,QuickSort,4.8
+Nearly Sorted,700,QuickSort,6.36
+Nearly Sorted,800,QuickSort,7.22
+Nearly Sorted,900,QuickSort,7.88
+Nearly Sorted,1000,QuickSort,10.16
+Nearly Sorted,1500,QuickSort,16.14
+Nearly Sorted,2000,QuickSort,29.8
+Nearly Sorted,2500,QuickSort,34.76
+Nearly Sorted,3000,QuickSort,60.56
+Nearly Sorted,3500,QuickSort,55.86
+Nearly Sorted,4000,QuickSort,69.92
+Nearly Sorted,4500,QuickSort,73.78
+Nearly Sorted,5000,QuickSort,94.3
+Nearly Sorted,5500,QuickSort,126.78
+Nearly Sorted,6000,QuickSort,119.08
+Nearly Sorted,6500,QuickSort,131.54
+Nearly Sorted,7000,QuickSort,156.38
+Nearly Sorted,7500,QuickSort,175.96
+Nearly Sorted,8000,QuickSort,161.7
+Nearly Sorted,8500,QuickSort,195.02
+Nearly Sorted,9000,QuickSort,216.2
+Nearly Sorted,9500,QuickSort,218.98
+Nearly Sorted,10000,QuickSort,240.76
+Nearly Sorted,100,MergeSort,2.22
+Nearly Sorted,200,MergeSort,4.76
+Nearly Sorted,300,MergeSort,8.26
+Nearly Sorted,400,MergeSort,13.04
+Nearly Sorted,500,MergeSort,19.54
+Nearly Sorted,600,MergeSort,18.74
+Nearly Sorted,700,MergeSort,21.24
+Nearly Sorted,800,MergeSort,35.22
+Nearly Sorted,900,MergeSort,29.04
+Nearly Sorted,1000,MergeSort,36.58
+Nearly Sorted,1500,MergeSort,55.46
+Nearly Sorted,2000,MergeSort,88.12
+Nearly Sorted,2500,MergeSort,95.88
+Nearly Sorted,3000,MergeSort,146.26
+Nearly Sorted,3500,MergeSort,160.26
+Nearly Sorted,4000,MergeSort,190.66
+Nearly Sorted,4500,MergeSort,203.78
+Nearly Sorted,5000,MergeSort,219.72
+Nearly Sorted,5500,MergeSort,268.54
+Nearly Sorted,6000,MergeSort,304.6
+Nearly Sorted,6500,MergeSort,313.08
+Nearly Sorted,7000,MergeSort,324.3
+Nearly Sorted,7500,MergeSort,411.42
+Nearly Sorted,8000,MergeSort,406.28
+Nearly Sorted,8500,MergeSort,447.68
+Nearly Sorted,9000,MergeSort,434.6
+Nearly Sorted,9500,MergeSort,531.86
+Nearly Sorted,10000,MergeSort,584.9
+Reverse Sorted,100,TreapSort,5.8
+Reverse Sorted,200,TreapSort,11.34
+Reverse Sorted,300,TreapSort,16.18
+Reverse Sorted,400,TreapSort,22.06
+Reverse Sorted,500,TreapSort,30.7
+Reverse Sorted,600,TreapSort,34.9
+Reverse Sorted,700,TreapSort,42.1
+Reverse Sorted,800,TreapSort,45.0
+Reverse Sorted,900,TreapSort,50.74
+Reverse Sorted,1000,TreapSort,60.6
+Reverse Sorted,1500,TreapSort,100.22
+Reverse Sorted,2000,TreapSort,127.52
+Reverse Sorted,2500,TreapSort,176.96
+Reverse Sorted,3000,TreapSort,214.48
+Reverse Sorted,3500,TreapSort,241.8
+Reverse Sorted,4000,TreapSort,344.52
+Reverse Sorted,4500,TreapSort,300.36
+Reverse Sorted,5000,TreapSort,337.2
+Reverse Sorted,5500,TreapSort,404.0
+Reverse Sorted,6000,TreapSort,508.1
+Reverse Sorted,6500,TreapSort,607.58
+Reverse Sorted,7000,TreapSort,660.96
+Reverse Sorted,7500,TreapSort,813.88
+Reverse Sorted,8000,TreapSort,872.82
+Reverse Sorted,8500,TreapSort,659.3
+Reverse Sorted,9000,TreapSort,777.06
+Reverse Sorted,9500,TreapSort,684.76
+Reverse Sorted,10000,TreapSort,764.7
+Reverse Sorted,100,PQSort,4.3
+Reverse Sorted,200,PQSort,10.26
+Reverse Sorted,300,PQSort,16.44
+Reverse Sorted,400,PQSort,23.32
+Reverse Sorted,500,PQSort,36.38
+Reverse Sorted,600,PQSort,47.2
+Reverse Sorted,700,PQSort,154.32
+Reverse Sorted,800,PQSort,76.98
+Reverse Sorted,900,PQSort,80.44
+Reverse Sorted,1000,PQSort,93.62
+Reverse Sorted,1500,PQSort,280.36
+Reverse Sorted,2000,PQSort,209.94
+Reverse Sorted,2500,PQSort,316.22
+Reverse Sorted,3000,PQSort,338.28
+Reverse Sorted,3500,PQSort,495.52
+Reverse Sorted,4000,PQSort,565.8
+Reverse Sorted,4500,PQSort,510.14
+Reverse Sorted,5000,PQSort,700.26
+Reverse Sorted,5500,PQSort,710.0
+Reverse Sorted,6000,PQSort,750.36
+Reverse Sorted,6500,PQSort,913.68
+Reverse Sorted,7000,PQSort,978.0
+Reverse Sorted,7500,PQSort,1110.44
+Reverse Sorted,8000,PQSort,987.24
+Reverse Sorted,8500,PQSort,1272.26
+Reverse Sorted,9000,PQSort,1194.84
+Reverse Sorted,9500,PQSort,1180.88
+Reverse Sorted,10000,PQSort,1286.0
+Reverse Sorted,100,Collections.sort,3.44
+Reverse Sorted,200,Collections.sort,6.5
+Reverse Sorted,300,Collections.sort,2.82
+Reverse Sorted,400,Collections.sort,3.66
+Reverse Sorted,500,Collections.sort,4.82
+Reverse Sorted,600,Collections.sort,5.54
+Reverse Sorted,700,Collections.sort,24.22
+Reverse Sorted,800,Collections.sort,17.44
+Reverse Sorted,900,Collections.sort,7.46
+Reverse Sorted,1000,Collections.sort,8.26
+Reverse Sorted,1500,Collections.sort,12.94
+Reverse Sorted,2000,Collections.sort,16.14
+Reverse Sorted,2500,Collections.sort,29.48
+Reverse Sorted,3000,Collections.sort,34.9
+Reverse Sorted,3500,Collections.sort,15.48
+Reverse Sorted,4000,Collections.sort,13.04
+Reverse Sorted,4500,Collections.sort,14.32
+Reverse Sorted,5000,Collections.sort,15.74
+Reverse Sorted,5500,Collections.sort,21.58
+Reverse Sorted,6000,Collections.sort,26.02
+Reverse Sorted,6500,Collections.sort,37.08
+Reverse Sorted,7000,Collections.sort,68.56
+Reverse Sorted,7500,Collections.sort,48.28
+Reverse Sorted,8000,Collections.sort,29.96
+Reverse Sorted,8500,Collections.sort,50.8
+Reverse Sorted,9000,Collections.sort,29.42
+Reverse Sorted,9500,Collections.sort,33.96
+Reverse Sorted,10000,Collections.sort,30.78
+Reverse Sorted,100,QuickSort,0.66
+Reverse Sorted,200,QuickSort,1.36
+Reverse Sorted,300,QuickSort,1.88
+Reverse Sorted,400,QuickSort,2.64
+Reverse Sorted,500,QuickSort,3.24
+Reverse Sorted,600,QuickSort,4.04
+Reverse Sorted,700,QuickSort,5.1
+Reverse Sorted,800,QuickSort,5.96
+Reverse Sorted,900,QuickSort,6.74
+Reverse Sorted,1000,QuickSort,7.26
+Reverse Sorted,1500,QuickSort,11.84
+Reverse Sorted,2000,QuickSort,14.4
+Reverse Sorted,2500,QuickSort,27.54
+Reverse Sorted,3000,QuickSort,26.34
+Reverse Sorted,3500,QuickSort,39.7
+Reverse Sorted,4000,QuickSort,32.14
+Reverse Sorted,4500,QuickSort,37.76
+Reverse Sorted,5000,QuickSort,40.42
+Reverse Sorted,5500,QuickSort,56.54
+Reverse Sorted,6000,QuickSort,54.3
+Reverse Sorted,6500,QuickSort,70.1
+Reverse Sorted,7000,QuickSort,84.92
+Reverse Sorted,7500,QuickSort,61.48
+Reverse Sorted,8000,QuickSort,77.04
+Reverse Sorted,8500,QuickSort,113.96
+Reverse Sorted,9000,QuickSort,81.66
+Reverse Sorted,9500,QuickSort,102.86
+Reverse Sorted,10000,QuickSort,92.16
+Reverse Sorted,100,MergeSort,2.08
+Reverse Sorted,200,MergeSort,4.44
+Reverse Sorted,300,MergeSort,6.5
+Reverse Sorted,400,MergeSort,9.04
+Reverse Sorted,500,MergeSort,12.48
+Reverse Sorted,600,MergeSort,41.54
+Reverse Sorted,700,MergeSort,18.06
+Reverse Sorted,800,MergeSort,20.1
+Reverse Sorted,900,MergeSort,25.48
+Reverse Sorted,1000,MergeSort,27.42
+Reverse Sorted,1500,MergeSort,49.9
+Reverse Sorted,2000,MergeSort,58.98
+Reverse Sorted,2500,MergeSort,81.66
+Reverse Sorted,3000,MergeSort,180.72
+Reverse Sorted,3500,MergeSort,154.22
+Reverse Sorted,4000,MergeSort,140.86
+Reverse Sorted,4500,MergeSort,172.68
+Reverse Sorted,5000,MergeSort,175.44
+Reverse Sorted,5500,MergeSort,287.6
+Reverse Sorted,6000,MergeSort,239.8
+Reverse Sorted,6500,MergeSort,312.22
+Reverse Sorted,7000,MergeSort,261.32
+Reverse Sorted,7500,MergeSort,295.48
+Reverse Sorted,8000,MergeSort,318.84
+Reverse Sorted,8500,MergeSort,428.74
+Reverse Sorted,9000,MergeSort,333.48
+Reverse Sorted,9500,MergeSort,380.48
+Reverse Sorted,10000,MergeSort,390.66
