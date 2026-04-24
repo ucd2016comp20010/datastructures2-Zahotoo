@@ -22,6 +22,7 @@ import java.util.*;
  */
 public class PerformanceBenchmark {
 
+    // denser sampling at small sizes where differences show up first
     private static final int[] SIZES = {100, 200, 300, 400, 500,
                                         600, 700, 800, 900, 1000,
                                         1500, 2000, 2500, 3000, 3500,
@@ -29,6 +30,7 @@ public class PerformanceBenchmark {
                                         6000, 6500, 7000, 7500, 8000,
                                         8500, 9000, 9500, 10000};
 
+    // warmups let the jit settle before timing
     private static final int WARMUP_RUNS = 3;
     private static final int TIMED_RUNS = 5;
 
@@ -64,6 +66,7 @@ public class PerformanceBenchmark {
     }
 
     private static int[] generateData(String pattern, int n) {
+        // fixed seed so runs are reproducible
         Random rnd = new Random(12345);
         int[] data = new int[n];
 
@@ -81,12 +84,14 @@ public class PerformanceBenchmark {
                 }
                 break;
             case "Sorted Ascending":
+                // worst case for a plain bst treap priorities should still balance it
                 for (int i = 0; i < n; i++) data[i] = i;
                 break;
             case "Sorted Descending":
                 for (int i = 0; i < n; i++) data[i] = n - i;
                 break;
             case "Partially Sorted":
+                // start sorted then swap about a fifth of the elements
                 for (int i = 0; i < n; i++) data[i] = i;
                 for (int i = 0; i < n / 5; i++) {
                     int a = rnd.nextInt(n);
@@ -151,13 +156,15 @@ public class PerformanceBenchmark {
         Treap<Integer, Integer> t = new Treap<>();
         for (int d : data) t.put(d, d);
 
-        // Single Insert
+        // single insert
         long totalSingleInsert = 0;
+        // far from dataset keys to avoid collision
         int newKey = Integer.MAX_VALUE / 4;
         for (int r = 0; r < TIMED_RUNS; r++) {
             long start = System.nanoTime();
             for (int i = 0; i < SINGLE_INSERT_REPEATS; i++) {
                 int key = newKey + r * SINGLE_INSERT_REPEATS + i;
+                // remove after put keeps tree size stable across runs
                 t.put(key, key);
                 t.remove(key);
             }
@@ -165,7 +172,7 @@ public class PerformanceBenchmark {
         }
         results[1] = totalSingleInsert / (double) TIMED_RUNS / SINGLE_INSERT_REPEATS / 1000.0;
 
-        // Search hit
+        // search hit
         long totalSearchHit = 0;
         for (int r = 0; r < TIMED_RUNS; r++) {
             long start = System.nanoTime();
@@ -178,6 +185,7 @@ public class PerformanceBenchmark {
         long totalSearchMiss = 0;
         for (int r = 0; r < TIMED_RUNS; r++) {
             long start = System.nanoTime();
+            // negative keys are guaranteed to miss since data is non negative
             for (int i = 0; i < data.length; i++) t.get(-(i + 1));
             totalSearchMiss += System.nanoTime() - start;
         }
@@ -186,6 +194,7 @@ public class PerformanceBenchmark {
         // deletion
         long totalDelete = 0;
         for (int r = 0; r < TIMED_RUNS; r++) {
+            // fresh tree each run so every delete hits a populated tree
             Treap<Integer, Integer> copy = new Treap<>();
             for (int d : data) copy.put(d, d);
             long start = System.nanoTime();
@@ -199,6 +208,7 @@ public class PerformanceBenchmark {
         for (int r = 0; r < TIMED_RUNS; r++) {
             long start = System.nanoTime();
             for (Entry<Integer, Integer> e : t.entrySet()) {
+                // touch the key so the jit cannot strip the loop
                 int k = e.getKey();
             }
             totalTraversal += System.nanoTime() - start;
@@ -235,7 +245,7 @@ public class PerformanceBenchmark {
         AVLTreeMap<Integer, Integer> t = new AVLTreeMap<>();
         for (int d : data) t.put(d, d);
 
-        // Single Insert
+        // single insert
         long totalSingleInsert = 0;
         int newKey = Integer.MAX_VALUE / 4;
         for (int r = 0; r < TIMED_RUNS; r++) {
@@ -249,7 +259,7 @@ public class PerformanceBenchmark {
         }
         results[1] = totalSingleInsert / (double) TIMED_RUNS / SINGLE_INSERT_REPEATS / 1000.0;
 
-        // Search hit
+        // search hit
         long totalSearchHit = 0;
         for (int r = 0; r < TIMED_RUNS; r++) {
             long start = System.nanoTime();
